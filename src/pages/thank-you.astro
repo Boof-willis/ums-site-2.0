@@ -28,4 +28,14 @@ import { BUSINESS } from "@/consts";
       </div>
     </div>
   </section>
+
+  <!-- Lead conversion event. This page only loads after a successful submit,
+       so it doubles as the conversion. Fires GA4 generate_lead + a dataLayer
+       push for GTM; Cloudflare Web Analytics counts the pageview as the goal. -->
+  <script is:inline>
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "generate_lead", { event_category: "lead", value: 1, currency: "USD" });
+    }
+    (window.dataLayer = window.dataLayer || []).push({ event: "lead_submitted" });
+  </script>
 </BaseLayout>

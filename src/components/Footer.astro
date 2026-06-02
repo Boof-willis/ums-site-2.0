@@ -33,11 +33,13 @@ const year = new Date().getFullYear();
       <ul class="mt-4 space-y-2.5 text-sm">
         {SERVICES.map((s) => (
           <li>
-            <a href={`/services/${s.key}/`} class="text-navy-300 hover:text-canyon-400">{s.navLabel} Moving</a>
+            <a href={`/services/${s.key}/`} class="text-navy-300 hover:text-canyon-400">{s.title}</a>
           </li>
         ))}
+        <li><a href="/storage/" class="text-navy-300 hover:text-canyon-400">Storage</a></li>
         <li><a href="/pricing/" class="text-navy-300 hover:text-canyon-400">Pricing</a></li>
         <li><a href="/moving-guide/" class="text-navy-300 hover:text-canyon-400">Moving Guide</a></li>
+        <li><a href="/local-vs-national-movers/" class="text-navy-300 hover:text-canyon-400">Local vs National Movers</a></li>
       </ul>
     </nav>
 

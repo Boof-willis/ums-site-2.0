@@ -1,0 +1,90 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import Icon from "@/components/Icon.astro";
+import Faq from "@/components/Faq.astro";
+import AnswerBox from "@/components/AnswerBox.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import { BUSINESS } from "@/consts";
+import { breadcrumbNode, faqNode } from "@/lib/schema";
+
+const path = "/local-vs-national-movers/";
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "Local vs National Movers", url: path },
+];
+
+const rows = [
+  { feature: "Who shows up", local: "The same trained, full-time crew you booked", national: "Often subcontracted or day-labor crews you've never met" },
+  { feature: "Your price", local: "Quoted up front, honored at the end", national: "Estimates that can balloon with surprise fees" },
+  { feature: "Your belongings", local: "Stay on one truck, one crew", national: "May be transferred between trucks and warehouses" },
+  { feature: "Local knowledge", local: "We know Utah neighborhoods, parking, and HOAs", national: "Dispatched from a national queue" },
+  { feature: "Accountability", local: "The owner answers the phone and stands behind the job", national: "Call-center tickets and claim forms" },
+  { feature: "Scheduling", local: "Flexible, and we'll work around your date", national: "Slotted into a regional route" },
+];
+
+const faqs = [
+  { q: "Are local movers cheaper than national moving companies?", a: "For most moves within Utah, yes. Local movers like Utah's Moving and Storage charge a straightforward hourly rate (from $140/hour for two movers and a truck) with no franchise overhead or middleman markup. National chains often add fuel surcharges, valuation upcharges, and broker fees that aren't obvious in the first quote." },
+  { q: "What is the difference between a moving company and a moving broker?", a: "A moving company owns the trucks and employs the crew that handles your move. A broker only sells your job to a third-party carrier you never chose, which is where many horror stories start. Utah's Moving and Storage is a licensed carrier (#" + BUSINESS.license + "), not a broker, so the crew you book is our own team." },
+  { q: "Is it safe to hire a local mover for a long-distance move?", a: "Yes. A reputable local mover can handle long-distance and interstate moves while keeping your shipment on one truck with one crew from pickup to delivery, which reduces the loss and damage risk that comes with the warehouse transfers national chains rely on." },
+  { q: "How do I avoid moving scams?", a: "Hire a licensed carrier (not a broker), confirm the license number, get the quote in writing, and avoid companies that demand a large deposit up front or won't do a walkthrough. Reading recent, detailed reviews from real local customers is the best signal of all." },
+];
+---
+<BaseLayout
+  title="Local vs National Movers: Which Is Better in Utah?"
+  description="Local movers vs national moving companies in Utah, compared honestly: pricing, crews, accountability, and your belongings. See why a local, licensed carrier usually wins."
+  path={path}
+  schema={[faqNode(faqs), breadcrumbNode(crumbs)]}
+  isFAQ
+>
+  <section class="bg-navy-950">
+    <Breadcrumbs items={crumbs} dark />
+    <div class="container-page pb-14 pt-6">
+      <h1 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Local movers vs. national chains: which is better?</h1>
+      <p class="mt-5 max-w-2xl text-lg text-navy-200">It's the question worth asking before you hand over everything you own. Here's an honest comparison from a local Utah crew.</p>
+    </div>
+  </section>
+
+  <article class="container-page py-14">
+    <div class="mx-auto max-w-3xl">
+      <AnswerBox>
+        <p>For most moves in Utah, a local, licensed moving company is the better choice. You get the same trained crew you booked, a price that's honored at the end, and your belongings stay on one truck. National chains add franchise overhead and often subcontract the actual move, which is where surprise fees and damage tend to creep in. The main case for a national chain is a cross-country move to a region a local carrier can't reach.</p>
+      </AnswerBox>
+    </div>
+
+    <!-- Comparison table -->
+    <div class="mx-auto mt-10 max-w-4xl overflow-hidden rounded-2xl border border-navy-100">
+      <table class="w-full text-left text-sm">
+        <thead>
+          <tr class="bg-navy-900 text-white">
+            <th class="p-4 font-semibold"></th>
+            <th class="p-4 font-semibold">Local mover (Utah's Moving and Storage)</th>
+            <th class="p-4 font-semibold text-navy-200">Typical national chain</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r, i) => (
+            <tr class={i % 2 ? "bg-sand-50" : "bg-white"}>
+              <th scope="row" class="p-4 align-top font-semibold text-navy-800">{r.feature}</th>
+              <td class="p-4 align-top text-navy-700">
+                <span class="flex gap-2"><Icon name="check-circle" class="mt-0.5 h-4 w-4 shrink-0 text-canyon-600" />{r.local}</span>
+              </td>
+              <td class="p-4 align-top text-navy-500">{r.national}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mx-auto mt-12 max-w-3xl prose-ums">
+      <h2>When a national chain might make sense</h2>
+      <p>We'd rather give you a straight answer than a sales pitch. If you're moving across the country to a state where no Utah-based carrier operates, a large van line with a national network can be the practical choice. For anything along the Wasatch Front, a move within Utah, or a long-distance move with one end in Utah, a local carrier almost always gives you better service for less.</p>
+
+      <h2>What to look for either way</h2>
+      <p>Whoever you hire, confirm they're a licensed carrier rather than a broker, get the quote in writing, and read their recent reviews. Utah's Moving and Storage is a licensed Utah motor carrier (#{BUSINESS.license}), rated {BUSINESS.rating.value} stars across {BUSINESS.rating.count}+ Google reviews, and the crew you book is our own.</p>
+    </div>
+  </article>
+
+  <Faq items={faqs} heading="Local vs. national movers: FAQs" />
+  <CtaBand heading="Get a straight, no-surprises quote" />
+</BaseLayout>

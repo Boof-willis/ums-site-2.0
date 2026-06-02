@@ -128,10 +128,13 @@ export const PRIMARY_NAV = [
   {
     label: "Services",
     href: "/services/",
-    children: SERVICES.map((s) => ({
-      label: s.navLabel,
-      href: `/services/${s.key}/`,
-    })),
+    children: [
+      ...SERVICES.map((s) => ({
+        label: s.navLabel,
+        href: `/services/${s.key}/`,
+      })),
+      { label: "Storage", href: "/storage/" },
+    ],
   },
   { label: "Pricing", href: "/pricing/" },
   { label: "Locations", href: "/locations/" },
@@ -140,6 +143,16 @@ export const PRIMARY_NAV = [
   { label: "About", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ] as const;
+
+// Analytics. Fill either (or both) to switch tracking on; leaving them blank
+// renders no scripts. Cloudflare Web Analytics is cookieless/privacy-first
+// (no cookie banner needed) and recommended. A lead conversion event fires on
+// /thank-you/ (see Analytics.astro + thank-you.astro). Values can also be set
+// at build time via PUBLIC_CF_BEACON_TOKEN / PUBLIC_GA4_ID env vars.
+export const ANALYTICS = {
+  cfBeaconToken: import.meta.env.PUBLIC_CF_BEACON_TOKEN ?? "", // Cloudflare Web Analytics token
+  ga4Id: import.meta.env.PUBLIC_GA4_ID ?? "", // e.g. "G-XXXXXXXXXX"
+};
 
 // GoHighLevel lead-capture endpoint. Set PUBLIC_GHL_FORM_ENDPOINT in the
 // Cloudflare Pages env (or .env) to the GHL inbound webhook / form URL.

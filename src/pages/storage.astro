@@ -1,0 +1,71 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import Icon from "@/components/Icon.astro";
+import Faq from "@/components/Faq.astro";
+import AnswerBox from "@/components/AnswerBox.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import { BUSINESS } from "@/consts";
+import { breadcrumbNode, faqNode } from "@/lib/schema";
+
+const path = "/storage/";
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "Storage", url: path },
+];
+
+const whenYouNeedIt = [
+  { icon: "calendar", title: "Gaps between closings", text: "When your move-out and move-in dates don't line up, we hold your belongings until your new place is ready." },
+  { icon: "home", title: "Downsizing", text: "Keep the things you're not ready to part with while you settle into a smaller space." },
+  { icon: "building", title: "Staging or remodeling", text: "Clear rooms for a home sale or renovation, then we bring everything back when you're done." },
+  { icon: "box", title: "Seasonal or overflow", text: "Store furniture, equipment, or inventory you don't need on hand right now." },
+];
+
+const faqs = [
+  { q: "Does Utah's Moving and Storage offer storage?", a: "Yes. We coordinate short- and long-term storage through trusted, secure partner facilities along the Wasatch Front. Our crew packs, wraps, and transports your belongings into storage, and brings them back out when you're ready, so you deal with one team instead of juggling a separate storage company." },
+  { q: "How does moving-plus-storage work?", a: "We load and protect your belongings the same way we would for any move, then place them into a vetted storage facility. When you need them delivered to your new home or office, we schedule the move-out and handle the heavy lifting again." },
+  { q: "Is my stuff safe in storage?", a: "We use reputable facilities with the security features that matter, and your items are wrapped and protected by our crew before they're stored. For specifics on climate control or unit size, give us a call and we'll match the right facility to what you're storing." },
+  { q: "How much does storage cost?", a: "Storage pricing depends on how much you're storing and for how long. Because we coordinate it alongside your move, we'll give you a clear, combined quote up front with no hidden fees. Call " + BUSINESS.phone + " for a quote." },
+];
+---
+<BaseLayout
+  title="Moving & Storage in Utah | Short & Long-Term Storage Coordination"
+  description="Need storage with your move? Utah's Moving and Storage coordinates secure short- and long-term storage through trusted Wasatch Front facilities, packed and moved by our own crew."
+  path={path}
+  schema={[faqNode(faqs), breadcrumbNode(crumbs)]}
+  isFAQ
+>
+  <section class="bg-navy-950">
+    <Breadcrumbs items={crumbs} dark />
+    <div class="container-page pb-14 pt-6">
+      <h1 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Storage that works with your move</h1>
+      <p class="mt-5 max-w-2xl text-lg text-navy-200">Sometimes your timeline needs a little breathing room. We handle the moving and the storage, so you only deal with one team.</p>
+    </div>
+  </section>
+
+  <article class="container-page py-14">
+    <div class="mx-auto max-w-3xl">
+      <AnswerBox>
+        <p>Utah's Moving and Storage coordinates short- and long-term storage through trusted, secure partner facilities along the Wasatch Front. Our own crew packs, protects, and transports your belongings into storage and back out again when you're ready, so you work with one team instead of renting a unit and moving everything yourself.</p>
+      </AnswerBox>
+
+      <div class="prose-ums mt-8">
+        <p>We're a moving company first, and we're upfront about how storage works with us: rather than run our own warehouse, we partner with established storage facilities we trust. That means you get the security and options of a dedicated storage company, plus the convenience of having the same movers handle every box, both into storage and out of it.</p>
+      </div>
+    </div>
+
+    <h2 class="mt-12 text-center text-2xl font-bold sm:text-3xl">When storage helps</h2>
+    <div class="mx-auto mt-8 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {whenYouNeedIt.map((w) => (
+        <div class="rounded-2xl border border-navy-100 bg-white p-6">
+          <span class="grid h-11 w-11 place-items-center rounded-xl bg-canyon-50 text-canyon-600"><Icon name={w.icon} class="h-6 w-6" /></span>
+          <h3 class="mt-4 font-bold">{w.title}</h3>
+          <p class="mt-2 text-sm text-navy-600">{w.text}</p>
+        </div>
+      ))}
+    </div>
+  </article>
+
+  <Faq items={faqs} heading="Storage FAQs" />
+  <CtaBand heading="Need moving and storage together?" text="Tell us your timeline and we'll put together one simple quote that covers both." />
+</BaseLayout>

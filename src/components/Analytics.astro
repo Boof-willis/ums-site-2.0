@@ -1,0 +1,26 @@
+---
+// Renders analytics only when configured (see ANALYTICS in consts.ts).
+// - Cloudflare Web Analytics: cookieless, privacy-first, pageview-based.
+//   The /thank-you/ pageview IS the lead conversion (track it as a goal in CF).
+// - GA4 (optional): also fires a `generate_lead` event on /thank-you/.
+import { ANALYTICS } from "@/consts";
+const { cfBeaconToken: cf, ga4Id: ga } = ANALYTICS;
+---
+{cf && (
+  <script
+    defer
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon={`{"token": "${cf}"}`}
+  ></script>
+)}
+{ga && (
+  <>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>
+    <script is:inline define:vars={{ ga }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", ga);
+    </script>
+  </>
+)}

@@ -102,6 +102,14 @@ To point it at a different GHL webhook without touching code, set in Cloudflare 
 
 Local testing of the function requires `npx wrangler pages dev dist`.
 
+### Analytics & conversion tracking
+
+Analytics is wired but off until you add an ID (no scripts render otherwise). Set in `src/consts.ts` (`ANALYTICS`) or via env vars:
+- `PUBLIC_CF_BEACON_TOKEN` — Cloudflare Web Analytics (cookieless, no cookie banner; recommended). The `/thank-you/` pageview is the lead conversion — mark it as a goal in the CF dashboard.
+- `PUBLIC_GA4_ID` — Google Analytics 4. A `generate_lead` event fires on `/thank-you/` automatically; a `lead_submitted` dataLayer event is also pushed for GTM.
+
+Because every successful form submit redirects to the dedicated `/thank-you/` URL, conversion tracking works with any analytics tool you choose.
+
 ---
 
 ## Editing content
