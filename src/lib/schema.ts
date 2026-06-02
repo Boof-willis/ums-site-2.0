@@ -246,6 +246,25 @@ export function howToNode(opts: {
   };
 }
 
+export function reviewNode(opts: {
+  author: string;
+  body: string;
+  rating?: number;
+}) {
+  return {
+    "@type": "Review",
+    itemReviewed: { "@id": ID.business },
+    author: { "@type": "Person", name: opts.author },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: String(opts.rating ?? 5),
+      bestRating: "5",
+    },
+    reviewBody: opts.body,
+    publisher: { "@type": "Organization", name: "Google" },
+  };
+}
+
 /** Wrap nodes in an @graph document. */
 export function graph(nodes: object[]) {
   return {

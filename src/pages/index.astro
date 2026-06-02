@@ -7,7 +7,7 @@ import CtaBand from "@/components/CtaBand.astro";
 import QuoteForm from "@/components/QuoteForm.astro";
 import { BUSINESS, SERVICES, LOCATIONS } from "@/consts";
 import { homeFaqs } from "@/data/faqs";
-import { faqNode, serviceNode } from "@/lib/schema";
+import { faqNode, serviceNode, reviewNode } from "@/lib/schema";
 
 const title =
   "Utah's Trusted Local & Long-Distance Movers | Utah's Moving and Storage";
@@ -42,11 +42,26 @@ const reasons = [
   { icon: "star", title: "Rated 4.9 stars", text: `${BUSINESS.rating.count}+ Google reviews from Utah families and businesses who'd hire us again.` },
 ];
 
+// Real, verbatim-trimmed Google reviews (5 stars). Also emitted as Review schema.
 const testimonials = [
-  { name: "Megan R.", city: "Orem, UT", text: "The crew was on time, careful, and genuinely kind. They wrapped everything and reassembled our beds. Best moving experience we've had." },
-  { name: "David K.", city: "Lehi, UT", text: "Quote was exactly what I paid, no surprise fees. They moved a 4-bedroom home faster than I expected and nothing was damaged." },
-  { name: "Sarah T.", city: "Salt Lake City, UT", text: "Professional from the first call. They handled our piano and a gun safe without a scratch. Highly recommend Utah's Moving and Storage." },
+  {
+    name: "Jalene L.",
+    city: "Google review",
+    text: "My parents had a large, very heavy leather couch that needed to be moved upstairs, and some scuffs happened to the wall in the stairwell. Derek came back the next day, repaired the wall, sanded it, and painted it, ensuring it looked as if nothing had ever happened. I would hire this company in a second.",
+  },
+  {
+    name: "Betsy W.",
+    city: "Google review",
+    text: "My previous experience with another moving company was a complete disaster: they charged me double the quoted price. Not Utah's Moving and Storage. The entire experience was smooth, and it ended up being a little under what we were quoted. These guys are just an honest, good company.",
+  },
+  {
+    name: "Aubrey A.",
+    city: "Utah County to San Antonio, TX",
+    text: "We moved from Utah County to San Antonio, TX and this company made our whole experience easy and fast. The movers finished in under the estimated time on both pickup and drop-off and communicated with us the entire way. Very professional, and took great care of our items.",
+  },
 ];
+// Emit the displayed reviews as Review schema (matches on-page content).
+schema.push(...testimonials.map((t) => reviewNode({ author: t.name, body: t.text })));
 ---
 
 <BaseLayout title={title} description={description} path="/" schema={schema} isFAQ>
