@@ -80,6 +80,17 @@ export function businessNode() {
       recognizedBy: { "@type": "Organization", name: "State of Utah" },
       identifier: BUSINESS.license,
     },
+    knowsAbout: [
+      "Residential moving",
+      "Long-distance moving",
+      "Commercial and office moving",
+      "Packing services",
+      "Moving and storage",
+      "Local movers in Utah",
+    ],
+    knowsLanguage: "en-US",
+    currenciesAccepted: "USD",
+    paymentAccepted: "Cash, Credit Card",
     sameAs: [BUSINESS.social.google],
   };
 }
@@ -186,6 +197,48 @@ export function blogPostingNode(opts: {
     author: { "@type": "Organization", name: opts.author ?? BUSINESS.name, "@id": ID.business },
     publisher: { "@id": ID.business },
     ...(opts.image ? { image: abs(opts.image) } : {}),
+  };
+}
+
+export function articleNode(opts: {
+  url: string;
+  headline: string;
+  description: string;
+  datePublished?: string;
+  dateModified?: string;
+  image?: string;
+}) {
+  return {
+    "@type": "Article",
+    "@id": `${abs(opts.url)}#article`,
+    mainEntityOfPage: abs(opts.url),
+    headline: opts.headline,
+    description: opts.description,
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified ?? opts.datePublished,
+    author: { "@id": ID.business },
+    publisher: { "@id": ID.business },
+    ...(opts.image ? { image: abs(opts.image) } : {}),
+  };
+}
+
+export function howToNode(opts: {
+  url: string;
+  name: string;
+  description: string;
+  steps: { name: string; text: string }[];
+}) {
+  return {
+    "@type": "HowTo",
+    "@id": `${abs(opts.url)}#howto`,
+    name: opts.name,
+    description: opts.description,
+    step: opts.steps.map((s, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
   };
 }
 

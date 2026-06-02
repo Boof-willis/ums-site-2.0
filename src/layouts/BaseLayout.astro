@@ -2,7 +2,7 @@
 import "@/styles/global.css";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import { BUSINESS, SITE_URL } from "@/consts";
+import { BUSINESS, SITE_URL, SITE_REVIEWED } from "@/consts";
 import {
   graph,
   businessNode,
@@ -53,8 +53,8 @@ const jsonld = graph([
     url: path,
     name: title,
     description,
-    datePublished,
-    dateModified,
+    datePublished: datePublished ?? SITE_REVIEWED,
+    dateModified: dateModified ?? SITE_REVIEWED,
   }),
   ...schema,
 ]);

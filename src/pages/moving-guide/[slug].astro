@@ -4,7 +4,10 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import Icon from "@/components/Icon.astro";
 import CtaBand from "@/components/CtaBand.astro";
-import { breadcrumbNode } from "@/lib/schema";
+import AnswerBox from "@/components/AnswerBox.astro";
+import { breadcrumbNode, articleNode, howToNode } from "@/lib/schema";
+import { SITE_REVIEWED } from "@/consts";
+import { GUIDE_META } from "@/data/guides";
 
 export async function getStaticPaths() {
   const guides = (await getCollection("guides")).sort(
@@ -19,18 +22,40 @@ export async function getStaticPaths() {
 const { g, prev, next } = Astro.props;
 const { Content } = await render(g);
 const path = `/moving-guide/${g.id}/`;
+const meta = GUIDE_META[g.id];
 const crumbs = [
   { name: "Home", url: "/" },
   { name: "Moving Guide", url: "/moving-guide/" },
   { name: g.data.title, url: path },
 ];
+const reviewed = new Date(SITE_REVIEWED).toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+});
+const schema = [
+  articleNode({
+    url: path,
+    headline: g.data.title,
+    description: g.data.description,
+    datePublished: SITE_REVIEWED,
+    dateModified: SITE_REVIEWED,
+  }),
+  breadcrumbNode(crumbs),
+];
+if (meta) {
+  schema.push(
+    howToNode({ url: path, name: meta.howToName, description: g.data.description, steps: meta.steps })
+  );
+}
 ---
 <BaseLayout
   title={`${g.data.title} | Utah's Moving and Storage`}
   description={g.data.description}
   path={path}
   ogType="article"
-  schema={[breadcrumbNode(crumbs)]}
+  schema={schema}
+  datePublished={SITE_REVIEWED}
+  dateModified={SITE_REVIEWED}
 >
   <Breadcrumbs items={crumbs} />
   <article class="container-page pb-8">
@@ -38,7 +63,15 @@ const crumbs = [
       <p class="font-semibold uppercase tracking-wider text-canyon-600">Moving Guide</p>
       <h1 class="mt-2 text-3xl font-bold sm:text-4xl lg:text-5xl">{g.data.title}</h1>
       <p class="mt-4 text-lg text-navy-600">{g.data.description}</p>
-      <div class="prose-ums mt-10 max-w-none">
+      <p class="mt-3 flex items-center gap-1.5 text-sm text-navy-500">
+        <Icon name="clock" class="h-4 w-4" /> Last reviewed {reviewed} by the Utah's Moving and Storage team
+      </p>
+      {meta && (
+        <AnswerBox>
+          <p>{meta.quickAnswer}</p>
+        </AnswerBox>
+      )}
+      <div class="prose-ums mt-8 max-w-none">
         <Content />
       </div>
     </div>

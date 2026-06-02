@@ -1,0 +1,16 @@
+---
+import Icon from "@/components/Icon.astro";
+interface Props {
+  label?: string;
+}
+const { label = "Quick answer" } = Astro.props;
+---
+<!-- Direct-answer block: self-contained, ~40-60 words, optimized for AI extraction/citation. -->
+<aside class="not-prose my-6 rounded-2xl border border-canyon-200 bg-canyon-50/60 p-5">
+  <div class="mb-1.5 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-canyon-700">
+    <Icon name="check-circle" class="h-4 w-4" />{label}
+  </div>
+  <div class="text-navy-800 [&>p]:m-0 [&>p+p]:mt-2">
+    <slot />
+  </div>
+</aside>

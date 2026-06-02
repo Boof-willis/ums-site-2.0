@@ -6,6 +6,11 @@
 
 export const SITE_URL = "https://utahsmovingandstorage.com";
 
+// Date the current site content was published/last reviewed (ISO).
+// Used as the default datePublished/dateModified for pages without their own
+// dates, so every page carries a freshness signal for AI/search.
+export const SITE_REVIEWED = "2026-06-02";
+
 export const BUSINESS = {
   name: "Utah's Moving and Storage",
   legalName: "Utah's Moving and Storage Company",
