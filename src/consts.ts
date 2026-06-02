@@ -45,8 +45,8 @@ export const BUSINESS = {
   priceRange: "$$",
   hours: "Mo-Sa 07:00-19:00",
   social: {
-    google:
-      "https://www.google.com/maps/search/?api=1&query=Utah%27s+Moving+and+Storage+Orem+UT",
+    // Google Business Profile (primary entity reference for local AI/search).
+    google: "https://maps.app.goo.gl/yM32yYXvhoKFnJbT7",
   },
 } as const;
 
