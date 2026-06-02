@@ -57,5 +57,3 @@ Moving for a teenager can be challenging physically, mentally, and emotionally. 
 Although every adolescent is unique, the majority struggle with change. Teenage life is complicated. This stage is one of learning, developing, and difficulty. Introducing a move to the situation can be pretty upsetting for your teen. Take a look at this infographic to learn the seven ways to support your teen during a move.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="831387340" p_hash="831387340" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Ways-to-Support-Your-Teenager-During-a-Move.jpg" alt="7 Ways to Support Your Teen During a Move"]

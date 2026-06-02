@@ -55,5 +55,3 @@ Your moving company can most likely pack your computer for you but if you choose
 There’s no such thing as too much paper and tape so make sure you are well prepared. Your home should look like an Office Max before packing. Packing can be a grueling task, but if you do it right, you can protect your valuables from damage during your move.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="746787677" p_hash="746787677" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Tips-for-Packing-Valuables.jpg" alt="7 Tips for Packing Valuables"]

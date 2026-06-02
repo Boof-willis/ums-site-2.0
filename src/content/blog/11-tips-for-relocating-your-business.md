@@ -74,8 +74,6 @@ Congratulations on exciting new adventures for your business. Planning a move ca
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="910739698" p_hash="6fa05b36d6" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/02/Tips-for-Relocating.jpg" alt="11 Tips for Relocating Your Business"]
-
 ## Infographic
 
 Relocating to a new office space, whether for a small home-based business or a large corporation, can be stressful. To stay organized, it's essential to have a checklist. Check out this infographic for items to include on your checklist.

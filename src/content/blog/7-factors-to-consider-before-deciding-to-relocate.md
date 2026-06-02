@@ -58,5 +58,3 @@ There are many reasons to move and lots of ways to achieve it if you want to sta
 ##
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="823233309" p_hash="823233309" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/things-to-consider-when-contemplating-relocation.jpg" alt="7 Factors to Consider Before Deciding to Relocate"]

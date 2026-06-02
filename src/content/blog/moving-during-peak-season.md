@@ -88,8 +88,6 @@ Moving during peak season requires careful planning and organization, but it can
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="1002361215" p_hash="57820e6da8" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/09/moving-during-peak-season-19-quick-tips-for-planning-and-avoiding-pitfalls.jpg" alt="Moving During Peak Season: 19 Quick Tips for Planning and Avoiding Pitfalls"]
-
 ## Infographic
 
 The peak moving season runs from May to September, and it is marked by high demand for services, increased housing competition, and often higher costs. Successful moves during this time require careful planning. This infographic offers quick tips to help you avoid common pitfalls.

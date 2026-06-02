@@ -51,5 +51,3 @@ Moving can be quite a stress-filled and exhausting experience, but if you hire a
 Moving is not something to celebrate. Usually, it's a very time-consuming and difficult task. But you can only go to your new home this way, and it will be worthwhile in the long run. Find a reputable moving company that will look out for you by following these easy steps.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="791047743" p_hash="791047743" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/finding-a-legit-moving-company.jpg" alt="How to Ensure A Moving Company Will Have Your Back"]

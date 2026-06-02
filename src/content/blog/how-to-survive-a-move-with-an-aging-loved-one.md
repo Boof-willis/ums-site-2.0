@@ -41,5 +41,3 @@ Help your loved one give their new place a unique touch. Add family pictures. Pu
 If you're helping an older family member move, they will value your patience, love, and assistance more than you realize. Moving with an elderly person may take longer and involve different preparations and steps, but it's worth it to help them with the process. Consider these seven helpful tips if you are assisting a senior parent, relative, or friend with their move.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="747182662" p_hash="747182662" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/How-to-Survive-a-Move-with-an-Aging-Loved-One.jpg" alt="How to Survive a Move with an Aging Loved One"]

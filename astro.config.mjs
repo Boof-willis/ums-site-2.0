@@ -17,8 +17,12 @@ export default defineConfig({
       filter: (page) =>
         !page.includes("/thank-you") &&
         !page.includes("/404"),
-      changefreq: "weekly",
-      priority: 0.7,
+      // Emit lastmod and drop the deprecated changefreq/priority fields
+      // (ignored by Google; identical values add no signal).
+      serialize: (item) => ({
+        url: item.url,
+        lastmod: "2026-06-02T00:00:00.000Z",
+      }),
     }),
   ],
   vite: {

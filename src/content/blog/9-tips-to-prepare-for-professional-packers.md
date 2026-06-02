@@ -64,8 +64,6 @@ Nothing is more frustrating for all parties if movers show up to pack up a house
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="929804103" p_hash="25ac21e27a" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/04/Prepare-for-Professional-Packers.jpg" alt="9 Tips to Prepare for Professional Packers"]
-
 ## Infographic
 
 Moving is tough. While full-service movers can help, you still need to prepare for their arrival. Check out our infographic for a quick list of nine things to do before the packers and movers show up.

@@ -66,7 +66,7 @@ Technically, moving coverage and moving insurance are two different things. Movi
 
 **Third-party insurance coverage:** Damage or lost items due to situations out of the control of the moving company's control or for amounts exceeding the liability limit.
 
-Knowledge is power, and we want you to feel empowered as you embark on your move. Remember that you're entitled to basic coverage. Still, you can always pay for better coverage or third party-insurance for peace of mind that you'll be well compensated if something unfortunate happens to your high-end items. We love to educate the community on the ins and outs of the moving process. Stay tuned for another [blog](/what-isnt-covered-by-a-moving-company/) about what moving insurance doesn’t cover.
+Knowledge is power, and we want you to feel empowered as you embark on your move. Remember that you're entitled to basic coverage. Still, you can always pay for better coverage or third party-insurance for peace of mind that you'll be well compensated if something unfortunate happens to your high-end items. We love to educate the community on the ins and outs of the moving process. Stay tuned for another [blog](/blog/what-isnt-covered-by-a-moving-company/) about what moving insurance doesn’t cover.
 
 ## Infographic
 
@@ -77,5 +77,3 @@ Did you know that moving insurance is available to safeguard your possessions an
 ##
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="812313818" p_hash="812313818" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Moving-Insurance.jpg" alt="What Does Moving Insurance Cover?"]

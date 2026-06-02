@@ -6,7 +6,7 @@ updatedDate: 2024-04-03
 category: "Hiring Movers"
 ---
 
-Moving coverage and insurance is essential and a great way to ease your anxieties while entrusting strangers with your belongings, especially on a long trek where you'll be apart from your things for an extended period. While moving companies do their best to deliver items on time and damage-free, accidents do happen. For more information on this and other types of moving coverage, read our [blog](/what-does-moving-insurance-cover/) about moving insurance. However, it's important to note that moving companies do not cover some items.
+Moving coverage and insurance is essential and a great way to ease your anxieties while entrusting strangers with your belongings, especially on a long trek where you'll be apart from your things for an extended period. While moving companies do their best to deliver items on time and damage-free, accidents do happen. For more information on this and other types of moving coverage, read our [blog](/blog/what-does-moving-insurance-cover/) about moving insurance. However, it's important to note that moving companies do not cover some items.
 
 ## What is not Covered?
 

@@ -46,8 +46,6 @@ We see companies relocate all the time for various reasons. It may be a bittersw
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="983955971" p_hash="51579ad1e1" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/07/7-top-reasons-to-relocate-your-business.jpg" alt="7 Top Reasons to Relocate Your Business"]
-
 ## Infographic
 
 Deciding when and where to relocate is a big decision for a business. There are common reasons for relocation, whether within the same city, out of town, or to a new state. The following infographic lists seven common reasons for business relocations.

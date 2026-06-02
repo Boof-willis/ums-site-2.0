@@ -47,5 +47,3 @@ When it’s time to pack, it’s all hands on deck. Assign a task to your kids a
 Do you have many outdoor things? Then, you are probably wondering how to deal with them when moving. There’s the patio furniture, porch decorations, and yard tools too! While contacting an experienced moving company, knowing how to pack them all is important as well. To help you have a smooth and enjoyable moving day, refer to the tips we have in this infographic. Read on.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="764027943" p_hash="764027943" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Moving-Tips-for-Outdoor-Belongings.jpg" alt="Moving Tips for Your Outdoor Belongings"]

@@ -157,6 +157,7 @@ export function serviceNode(opts: {
 }) {
   return {
     "@type": "Service",
+    "@id": `${abs(opts.url)}#service`,
     name: opts.name,
     serviceType: opts.serviceType ?? opts.name,
     url: abs(opts.url),
@@ -194,9 +195,12 @@ export function blogPostingNode(opts: {
     description: opts.description,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified ?? opts.datePublished,
-    author: { "@type": "Organization", name: opts.author ?? BUSINESS.name, "@id": ID.business },
+    author:
+      opts.author && opts.author !== BUSINESS.name
+        ? { "@type": "Person", "@id": ID.founder, name: opts.author }
+        : { "@id": ID.business },
     publisher: { "@id": ID.business },
-    ...(opts.image ? { image: abs(opts.image) } : {}),
+    image: abs(opts.image ?? "/images/og-default.jpg"),
   };
 }
 
@@ -218,7 +222,7 @@ export function articleNode(opts: {
     dateModified: opts.dateModified ?? opts.datePublished,
     author: { "@id": ID.business },
     publisher: { "@id": ID.business },
-    ...(opts.image ? { image: abs(opts.image) } : {}),
+    image: abs(opts.image ?? "/images/og-default.jpg"),
   };
 }
 

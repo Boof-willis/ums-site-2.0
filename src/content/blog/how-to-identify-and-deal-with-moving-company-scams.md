@@ -77,8 +77,6 @@ The best way to protect yourself is by doing adequate research on a moving compa
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="955908423" p_hash="3691e801ed" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/06/how-to-identify-and-deal-with-moving-company-scams.jpg" alt="How to Identify and Deal with Moving Company Scams"]
-
 ## Infographic
 
 If you've been a victim of fraud and need to take further action beyond complaining to the company, consider filing a complaint with a government organization listed in the infographic.

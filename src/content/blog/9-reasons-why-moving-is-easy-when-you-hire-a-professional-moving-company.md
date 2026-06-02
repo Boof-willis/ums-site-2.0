@@ -49,5 +49,3 @@ When it comes to moving, Murphy's Law often applies, "Whatever can go wrong, wil
 If a move is in your future, start looking now for an experienced moving company. They can make the process much easier and less stressful for you. Moving companies have the experience and equipment necessary to move your belongings safely and efficiently. Hiring a moving company is a great way to ensure a smooth relocation. The best part is that you don't need to do all the work yourself since someone else will be there to handle all the difficult stuff. It doesn't matter what type of move you're making or how large it is. Hiring a moving company gives you peace of mind.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="725522822" p_hash="725522822" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Reasons-Why-Moving-Is-Easy-When-You-Hire-A-Professional-Moving-Company.jpg" alt="9 Reasons Why Moving Is Easy When You Hire A Professional Moving Company"]

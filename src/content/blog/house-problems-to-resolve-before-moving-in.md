@@ -39,5 +39,3 @@ You'll likely use major appliances daily, such as your dishwasher, refrigerator,
 When moving into a new home, there is some maintenance you should check off. Despite being excited about starting your new journey, taking care of these issues is crucial for a great start. It will also lessen the burden and stress of moving in while there are still some problems. Read about the issues you need to resolve for safety and convenience before moving in.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="761678396" p_hash="761678396" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Five-House-Problems-to-Resolve-Before-Moving-In.jpg" alt="House Problems to Resolve Before Moving In"]

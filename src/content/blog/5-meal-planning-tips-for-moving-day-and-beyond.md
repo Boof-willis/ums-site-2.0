@@ -12,7 +12,7 @@ The key to meals during a move is meal planning. Plan meals that stick to a budg
 
 ## 1. Freezer Meals
 
-If the drive to your new home isn’t too far, freezer meals are a great time saver at the end of an exhausting day. You’ll thank yourself for making freezer meals you can pop in the oven, Crock Pot, or Instant Pot the days following your move. You can make it well in advance before your short-distance movers arrive and keep it in the freezer so it doesn’t get in the way of your [packing](/7-tips-for-packing-valuables/) and other moving tasks, and it won’t take away from your unpacking when you arrive. Some filling freezer meal ideas include:
+If the drive to your new home isn’t too far, freezer meals are a great time saver at the end of an exhausting day. You’ll thank yourself for making freezer meals you can pop in the oven, Crock Pot, or Instant Pot the days following your move. You can make it well in advance before your short-distance movers arrive and keep it in the freezer so it doesn’t get in the way of your [packing](/blog/7-tips-for-packing-valuables/) and other moving tasks, and it won’t take away from your unpacking when you arrive. Some filling freezer meal ideas include:
 
 - Stuffed Shells
 - Baked Chicken Fajitas

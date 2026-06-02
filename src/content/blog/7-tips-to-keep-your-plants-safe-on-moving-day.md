@@ -68,8 +68,6 @@ Moving day doesn't have to be a stressful experience for your plants. These prec
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="1011146065" p_hash="80d44f0615" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/09/7-tips-to-keep-your-plants-safe-on-moving-day.jpg" alt="7 Tips to Keep Your Plants Safe on Moving Day"]
-
 ## Infographic
 
 Plants are sensitive and can be easily damaged during a move. With proper preparation, you can help them thrive in their new home. Check out this infographic for essential tips to keep your plants safe on moving day.

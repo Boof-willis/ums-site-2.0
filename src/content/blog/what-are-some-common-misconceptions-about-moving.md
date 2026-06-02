@@ -6,17 +6,15 @@ updatedDate: 2024-04-03
 category: "Moving Tips"
 ---
 
-[et_pb_section fb_built="1" fullwidth="on" _builder_version="4.20.4" _module_preset="default" background_image="https://utahsmovingandstorage.com/wp-content/uploads/2023/04/What-are-some-common-misconceptions-about-moving.jpg" global_colors_info="{}"][et_pb_fullwidth_post_title meta="off" featured_image="off" _builder_version="4.20.0" _module_preset="default" title_font="|700|||||||" title_text_align="center" title_text_color="#FFFFFF" title_font_size="60px" title_line_height="1.4em" use_background_color_gradient="on" background_color_gradient_stops="rgba(38,47,54,0.4) 0%|rgba(38,47,54,0.4) 100%" background_color_gradient_overlays_image="on" custom_padding="100px||100px||true|false" title_font_size_tablet="50px" title_font_size_phone="40px" title_font_size_last_edited="on|phone" global_colors_info="{}"][/et_pb_fullwidth_post_title][/et_pb_section][et_pb_section fb_built="1" _builder_version="4.17.6" _module_preset="default" global_colors_info="{}"][et_pb_row _builder_version="4.17.6" _module_preset="default" max_width="1080px" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Intro Paragraph" _builder_version="4.20.4" global_colors_info="{}"]Moving can be stressful. Believing common misconceptions about moving can add unwanted stress to the moving process. Knowledge is power, so read along to gain some knowledge about the moving process and learn which moving myths experts have debunked. [/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Dustin Sitar " _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+Moving can be stressful. Believing common misconceptions about moving can add unwanted stress to the moving process. Knowledge is power, so read along to gain some knowledge about the moving process and learn which moving myths experts have debunked.
 
 #### Dustin Sitar
 
-CEO, [The Groom Club](https://thegroomclub.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+CEO, [The Groom Club](https://thegroomclub.com/).
 
 ## All Moving Companies Are The Same
 
 One common misconception about moving is that all moving companies are the same. They're just like any other kind of company in that they're all different. Some are better than others. It's important to check reviews online, get recommendations from friends, and even check their ratings with the Better Business Bureau. They're handling your personal belongings. There's no settling on a service like that.
-
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
 
 ## You Can Do Everything in One Day
 
@@ -24,15 +22,13 @@ One common misconception about moving houses is that you can do everything in on
 
 Rushing the moving process can lead to mistakes, damage to your belongings, and increased stress and anxiety. Therefore, it's important to plan and give yourself enough time to complete each step of the moving process at a comfortable pace.
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Richard Mews" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### Richard Mews
 
-CEO, [Sell With Richard](https://www.sellwithrichard.co.uk/).[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Dan Belcher" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+CEO, [Sell With Richard](https://www.sellwithrichard.co.uk/).
 
 #### Dan Belcher
 
-Founder, and CEO of [Mortgage Relief](https://mortgage-relief.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+Founder, and CEO of [Mortgage Relief](https://mortgage-relief.com/).
 
 ## It is All About Packing and Unpacking
 
@@ -42,27 +38,21 @@ Moreover, changing the details of your address and contact details for identific
 
 And while it is possible to transfer without hiring a moving company, it can be risky for you and for your family to load and unload everything from your old house to your new house.
 
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
-
 ## Expensive Packing Materials
 
 One common misconception is that packing materials always end up costing a ton of money. This doesn’t have to be true. The last thing you want to worry about when moving is having to spend a ton of money on boxes. What you can do to get boxes for free is go on Craigslist. Go to their “free” section and search for moving/storage boxes and you should be able to easily find a good selection. I would recommend doing this at the beginning of the week because that is usually when there are the most boxes available.
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Jeremy Yamaguchi" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### Jeremy Yamaguchi
 
-CEO of [Lawn Love](https://lawnlove.com/).[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Ryan Farley" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+CEO of [Lawn Love](https://lawnlove.com/).
 
 #### Ryan Farley
 
-CEO of [LawnStarter](https://www.lawnstarter.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+CEO of [LawnStarter](https://www.lawnstarter.com/).
 
 ## You Only Need A Few Boxes
 
 One of the simplest and most common misconceptions about moving houses is that you'll need way fewer boxes than you actually will! My advice for anyone moving houses is usually to start hoarding boxes a few months ahead of time and hold onto way more than you think you'll need. The last thing you want is to have to interrupt packing progress by running out to grab more. and you'll always need more.
-
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
 
 ## You Need to Move quickly and you Have to be Completely Prepared for Moving Day
 
@@ -74,23 +64,19 @@ There are a number of common misconceptions about moving houses. Here are three 
 
 **3. You have to be completely prepared for moving day.** This isn't always the case, and there are steps you can take to ease the transition into your new home. However, don't forget that there will be surprises along the way - just like any other big change in your life!
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Will Copp" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### Will Copp
 
-Owner of [Knox Concrete Contractors](https://knoxvilleconcretecontractors.com/).[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Max Shak" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+Owner of [Knox Concrete Contractors](https://knoxvilleconcretecontractors.com/).
 
 #### Max Shak
 
-Founder of [SurvivalGearShack.com](https://survivalgearshack.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+Founder of [SurvivalGearShack.com](https://survivalgearshack.com/).
 
 ## Packing Can Be Done At The Last Minute And Everything Needs To Be Moved
 
 There are several common misconceptions about moving houses that can lead to stress and frustration if not properly addressed. Here are some of the most common misconceptions:
 
 By understanding these misconceptions and taking steps to address them, you can help ensure a smoother and less stressful moving experience.
-
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
 
 ## It’s A Hassle-free Process and It Only Requires Minimal Packing
 
@@ -100,21 +86,17 @@ Another common misconception about moving houses is that it requires minimal pac
 
 Finally, some people may think that hiring professional movers will be too expensive. However, this isn't always the case. Professional movers can save you time, effort, and stress. It is important to shop around for the best deals available before deciding on a moving company. It may be worth hiring professionals if it means saving yourself from unnecessary hassle.
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Fred Hoffman" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### Fred Hoffman
 
-Founder & Chief Editor at [The True Wilderness](https://thetruewilderness.com/).[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Scott Chambers" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+Founder & Chief Editor at [The True Wilderness](https://thetruewilderness.com/).
 
 #### Scott Chambers
 
-Carpenter, Contractor, and Content Editor of [BuildEazy](https://www.buildeazy.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+Carpenter, Contractor, and Content Editor of [BuildEazy](https://www.buildeazy.com/).
 
 ## You Don't Need to Declutter and You can Move Anything
 
 There are almost as many misconceptions about moving houses as there are grains of sand on the beaches of North Carolina, but some of the most popular, in my experience, are:
-
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
 
 ## Weekends are the Best Time to Move and DIY Moving is Cheaper
 
@@ -122,21 +104,17 @@ While weekends offer you plenty of time to unpack, you have to pay some premium 
 
 While it might seem to you that DIYing the move is always the most cost-effective option, it is important to consider the overall costs. You have to rent a truck, buy packing supplies, take a day off, and more. Considering all these, hiring a professional sometimes turns out to be the more cost-effective option.
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="David Tully" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### David Tully
 
-Realtor at [eXp Realty Reno, Nevada](https://www.renonvpropertysearch.com/).[/et_pb_code][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_3,2_3" _builder_version="4.17.6" _module_preset="default" max_width="1080px" custom_margin="||60px||false|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Nick Mueller" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
+Realtor at [eXp Realty Reno, Nevada](https://www.renonvpropertysearch.com/).
 
 #### Nick Mueller
 
-Director of Operations of [HawaiianIslands.com](https://hawaiianislands.com/).[/et_pb_code][/et_pb_column][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
+Director of Operations of [HawaiianIslands.com](https://hawaiianislands.com/).
 
 ## DIY Moving Is Cheaper Than Hiring Professional Movers
 
 One of the biggest misconceptions is that it's cheaper to move yourself than it is to hire movers. Professional movers do it day in and day out. They can come in, and get your house packed and loaded in a matter of hours usually. It might take you a few days to get your house packed and all day to get it loaded. Just the time you save makes hiring movers cheaper than doing it yourself. That's not including renting trucks, gas, food for your friends that you're going to need to help you with the big items, and any other expenses you incur. Sometimes it's easier and cheaper to let the professionals handle it.
-
-[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="2_3,1_3" _builder_version="4.17.6" _module_preset="default" background_color="#efefef" max_width="1080px" custom_margin="60px||60px||true|false" custom_padding="|30px||30px|false|true" global_colors_info="{}"][et_pb_column type="2_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Quote" _builder_version="4.20.4" text_font_size="18px" global_colors_info="{}"]
 
 ## Moving Is Easy and Straightforward
 
@@ -152,12 +130,8 @@ Lastly, people often assume that they will have enough time to prepare for the m
 
 Moving houses can be a daunting task, and there are several misconceptions that people often have about it. However, by debunking these misconceptions, we can gain a more accurate understanding of what moving entails and take the necessary steps to prepare adequately. Moving requires careful planning, professional help, and adequate time, and by following these steps, you can make your move a smooth and stress-free experience.
 
-[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_code admin_label="Mike Qiu" _builder_version="4.20.4" _module_preset="default" text_orientation="center" global_colors_info="{}"]
-
 #### Mike Qiu
 
-Owner of [GoodAsSoldHomeBuyers](https://www.goodassoldhomebuyers.com/).[/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section fb_built="1" _builder_version="4.20.0" background_enable_color="off" module_alignment="center" custom_margin="0px|0px|30px|0px|false|false" custom_padding="0px|0px|0px|0px|true|true" global_colors_info="{}"][et_pb_row _builder_version="4.20.0" background_color="#efefef" custom_padding="10px|5px|10px|5px|true|true" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.16" custom_padding="|||" global_colors_info="{}" custom_padding__hover="|||"][et_pb_text admin_label="disclaimer" _builder_version="4.20.4" text_font_size="12px" text_line_height="1.4em" text_orientation="center" custom_margin="0px|0px|0px|0px" custom_padding="0px|0px|0px|0px" z_index_tablet="500" text_text_shadow_horizontal_length_tablet="0px" text_text_shadow_vertical_length_tablet="0px" text_text_shadow_blur_strength_tablet="1px" link_text_shadow_horizontal_length_tablet="0px" link_text_shadow_vertical_length_tablet="0px" link_text_shadow_blur_strength_tablet="1px" ul_text_shadow_horizontal_length_tablet="0px" ul_text_shadow_vertical_length_tablet="0px" ul_text_shadow_blur_strength_tablet="1px" ol_text_shadow_horizontal_length_tablet="0px" ol_text_shadow_vertical_length_tablet="0px" ol_text_shadow_blur_strength_tablet="1px" quote_text_shadow_horizontal_length_tablet="0px" quote_text_shadow_vertical_length_tablet="0px" quote_text_shadow_blur_strength_tablet="1px" header_text_shadow_horizontal_length_tablet="0px" header_text_shadow_vertical_length_tablet="0px" header_text_shadow_blur_strength_tablet="1px" header_2_text_shadow_horizontal_length_tablet="0px" header_2_text_shadow_vertical_length_tablet="0px" header_2_text_shadow_blur_strength_tablet="1px" header_3_text_shadow_horizontal_length_tablet="0px" header_3_text_shadow_vertical_length_tablet="0px" header_3_text_shadow_blur_strength_tablet="1px" header_4_text_shadow_horizontal_length_tablet="0px" header_4_text_shadow_vertical_length_tablet="0px" header_4_text_shadow_blur_strength_tablet="1px" header_5_text_shadow_horizontal_length_tablet="0px" header_5_text_shadow_vertical_length_tablet="0px" header_5_text_shadow_blur_strength_tablet="1px" header_6_text_shadow_horizontal_length_tablet="0px" header_6_text_shadow_vertical_length_tablet="0px" header_6_text_shadow_blur_strength_tablet="1px" box_shadow_horizontal_tablet="0px" box_shadow_vertical_tablet="0px" box_shadow_blur_tablet="40px" box_shadow_spread_tablet="0px" global_colors_info="{}"]
+Owner of [GoodAsSoldHomeBuyers](https://www.goodassoldhomebuyers.com/).
 
 *This is a crowdsourced article. Contributors' statements do not necessarily reflect the opinion of this website, other people, businesses, or other contributors.*
-
-[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section]

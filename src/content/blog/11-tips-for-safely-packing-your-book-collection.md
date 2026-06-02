@@ -8,7 +8,7 @@ category: "Packing & Supplies"
 
 Any book enthusiast knows the frustration of discovering a damaged cover, a ripped page, or a crinkled book jacket. Add a sprinkle of OCD to the mix, and the sight could spiral you into a panic.
 
-Moving is inevitably stressful. Most people stress about their antiques or jewelry, but for the ultimate book-obsessed reader, it’s all about protecting your precious collection of novels. If you’re a book collector and truly cherish your books and do all you can to keep them in good condition, this blog is for you. Here are 11 tips from our [professional packers](/locations-served/) to safeguard your favorite books.
+Moving is inevitably stressful. Most people stress about their antiques or jewelry, but for the ultimate book-obsessed reader, it’s all about protecting your precious collection of novels. If you’re a book collector and truly cherish your books and do all you can to keep them in good condition, this blog is for you. Here are 11 tips from our [professional packers](/locations/) to safeguard your favorite books.
 
 ## 1. Streamline the Collection
 

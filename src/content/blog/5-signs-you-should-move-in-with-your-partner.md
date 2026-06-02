@@ -51,8 +51,6 @@ If you've thought about it, slept on it, talked about it with your partner, and 
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="782758464" p_hash="782758464" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Five-Signs-You-Should-Move-in-With-Your-Partner.jpg" alt="5 Signs You Should Move in With Your Partner"]
-
 ## Infographic
 
 If you and your partner have been getting along well for a while and you're starting to think that living together might be ideal, talk to them about it. You probably aren't the only one who feels this way. Nevertheless, despite how well things are going, taking this step is still a major one and shouldn't be done quickly.

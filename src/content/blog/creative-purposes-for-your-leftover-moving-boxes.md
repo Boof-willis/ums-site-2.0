@@ -54,8 +54,6 @@ Moving requires many boxes, but there are fun and sustainable ways to repurpose 
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="935234202" p_hash="3b71ac4939" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/04/Purpose-for-Your-Leftover-Moving-Boxes.jpg" alt="Creative Purposes for Your Leftover Moving Boxes"]
-
 ## Infographic
 
 You're all moved into your new place after a long day, but now you have all these cardboard boxes. Check out this infographic for ten creative ways to repurpose them.

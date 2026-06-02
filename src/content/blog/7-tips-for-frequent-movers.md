@@ -58,8 +58,6 @@ The life of a frequent mover can be an exciting one; a new adventure each time a
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="881953565" p_hash="65c143f913" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/11/Tips-for-Frequent-Movers.jpg" alt="7 Tips for Frequent Movers"]
-
 ## Infographic
 
 If you've moved several times, you may feel like an expert, but there are always new tips and tricks to make moving easier. In this infographic, you'll find seven tips specifically for frequent movers.

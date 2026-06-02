@@ -55,5 +55,3 @@ Preparation will prevent headaches later. Go all in and be organized so you’re
 Professional moving companies can significantly help you in moving your items and personal belongings to your new home. It will make moving more manageable, less stressful, and more efficient than when you are doing everything yourself. There are several things you should do to help prepare for mover’s days before your move. Read about it in this infographic.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="822898636" p_hash="822898636" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Things-You-Should-Do-Before-the-Moving-Company-Arrives.jpg" alt="9 Things You Should Do Before the Moving Company Arrives"]

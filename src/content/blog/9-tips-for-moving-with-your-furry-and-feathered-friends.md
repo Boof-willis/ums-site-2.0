@@ -77,5 +77,3 @@ Moving can be a stressor. Imagine how your pet feels. Poor Fluffy is confused, n
 ##
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="1022424198" p_hash="72a10f6c4a" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/10/9-tips-for-moving-with-your-furry-and-feathered-friends.jpg" alt="9 Tips for Moving with Your Furry and Feathered Friends"]

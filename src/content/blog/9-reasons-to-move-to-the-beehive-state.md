@@ -89,8 +89,6 @@ As a moving company in Utah, we may be biased, but Utah has every element of an 
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="934676870" p_hash="9cc580b85e" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/04/The-Beehive-State.jpg" alt="9 Reasons to Move to the Beehive State"]
-
 ## Infographic
 
 Utah is a fast-growing state with a strong job market, world-class ski resorts, five national parks, and a family-friendly atmosphere. It's a great place to live with breathtaking outdoor landscapes and a healthy economy. Take a look at the infographic below to explore the nine things to love about Utah.

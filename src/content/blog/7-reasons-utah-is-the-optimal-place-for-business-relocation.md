@@ -57,5 +57,3 @@ Utah stands out as the ideal destination for business relocation, thanks to its 
 ##
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="862409646" p_hash="73d3aced7e" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/09/Utah-is-the-Optimal-Place-for-Business-Relocation.jpg" alt="7 Reasons Utah is the Optimal Place for Business Relocation"]

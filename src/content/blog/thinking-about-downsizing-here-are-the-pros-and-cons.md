@@ -42,7 +42,7 @@ If you’ve gotten used to having a lot of space, you may never get accustomed t
 
 ### 2. The Stress of Moving
 
-Moving causes stress even with the help of a [professional Utah moving company](/9-reasons-why-moving-is-easy-when-you-hire-a-professional-moving-company/). Maybe you don’t have the time, energy, or desire to take on a move right now. If the idea of packing up and moving is your deciding factor to stay put, you are not alone.
+Moving causes stress even with the help of a [professional Utah moving company](/blog/9-reasons-why-moving-is-easy-when-you-hire-a-professional-moving-company/). Maybe you don’t have the time, energy, or desire to take on a move right now. If the idea of packing up and moving is your deciding factor to stay put, you are not alone.
 
 ### 3. Not Worth it
 

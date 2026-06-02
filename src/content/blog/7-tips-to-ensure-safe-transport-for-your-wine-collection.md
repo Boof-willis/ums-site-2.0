@@ -58,8 +58,6 @@ By following our tips for wine relocation, your wine can maintain its value and 
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="988860312" p_hash="9d9c2e8353" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/07/moving-your-wine-collection-follow-these-7-tips-to-ensure-safe-transport.jpg" alt="Moving Your Wine Collection? Follow These 7 Tips to Ensure Safe Transport"]
-
 ## Infographic
 
 As a wine connoisseur, you're facing the challenge of packing your valuable wine collection for an upcoming move. Check out this infographic for the best tips on packing and moving your wine collection.

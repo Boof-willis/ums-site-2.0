@@ -63,8 +63,6 @@ The newlywed stage is such a particular time in marriage. It’s the beginning o
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="952310049" p_hash="cb6c182eb8" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/06/7-tips-for-moving-in-together-after-tying-the-knot.jpg" alt="7 Tips for Moving in Together After Tying the Knot"]
-
 ## Infographic
 
 Weddings symbolize the union of two lives. Moving together after the wedding may require adjustments, but the process can be smooth with open communication, boundaries, and respect. Learn some tips on transitioning from being newlyweds to roommates in this infographic.

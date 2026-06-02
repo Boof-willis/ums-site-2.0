@@ -53,5 +53,3 @@ Whether hiring professional packers or full-service movers, it's always good to 
 Moving day's excitement is paired with worries. Ensuring the safety of your belongings and trusting a new moving team can be challenging. However, addressing tasks progressively makes the process smoother. It's vital to plan for your valuables, offering both protection and peace of mind. Consider these nine methods to safeguard your assets.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="800719320" p_hash="800719320" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Tips-and-Tricks-for-Keeping-Track-of-Your-Valuables.jpg" alt="9 Tips and Tricks for Keeping Track of Your Most Valuable Items"]

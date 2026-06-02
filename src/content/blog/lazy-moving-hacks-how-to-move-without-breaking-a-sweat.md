@@ -49,8 +49,6 @@ If moving has become part of your identity, then we know you’re always open to
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="900038453" p_hash="538a8f4b40" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/01/Move-without-Breaking-a-Sweat.jpg" alt="Lazy Moving Hacks: How to Move without Breaking a Sweat"]
-
 ## Infographic
 
 If you’re someone who moves frequently, efficiency is key. For tips on organizing, packing, and making the overall moving process as easy as possible, check out this infographic.

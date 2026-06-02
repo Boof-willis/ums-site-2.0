@@ -12,7 +12,7 @@ While moving during the beating heat may still be way better than during the dea
 
 ## 1. Book a Moving Company in Advance
 
-Remember how we mentioned everyone and their dog moves between May and September? That means those [Utah moving companies](/commercial/) might be all booked up months out. Call in advance and get your move on their schedule. You don’t want to wait till the last minute and have to move by yourself or get stuck with the movers with a page of horrible reviews on Google. Even if you decide to move alone, you better reserve a moving truck; those get booked quickly during the moving season too.
+Remember how we mentioned everyone and their dog moves between May and September? That means those [Utah moving companies](/services/commercial/) might be all booked up months out. Call in advance and get your move on their schedule. You don’t want to wait till the last minute and have to move by yourself or get stuck with the movers with a page of horrible reviews on Google. Even if you decide to move alone, you better reserve a moving truck; those get booked quickly during the moving season too.
 
 ## 2. Take Safety Precautions
 

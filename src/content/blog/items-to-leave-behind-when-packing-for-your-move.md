@@ -81,5 +81,3 @@ Your Utah moving company will most likely provide you with a list of items not a
 Moving can be a stressful event, especially if you have work, family, and social life to balance. Focus on organization and preparation, taking one step at a time. Packing wisely is crucial, but consider leaving certain belongings behind to avoid potential dangers. Knowledge is power, so consider leaving nine items behind.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="856313838" p_hash="b863a8025c" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/08/Items-to-Leave-Behind-when-Packing-for-Your-Move.jpg" alt="Items to Leave Behind when Packing for Your Move"]

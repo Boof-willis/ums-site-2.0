@@ -9,7 +9,7 @@ const blog = defineCollection({
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     category: z.string().default("Moving Tips"),
-    author: z.string().default("Utah's Moving and Storage"),
+    author: z.string().default("Derek Martin"),
     hero: z.string().optional(),
     draft: z.boolean().default(false),
   }),

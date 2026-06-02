@@ -56,8 +56,6 @@ Relocation shouldn’t mean being back at square one. It's possible to move with
 
 ## Video
 
-[video_lightbox_vimeo5 video_id="934629955" p_hash="1e2bf2191e" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2024/04/Business-Relocation.jpg" alt="5 Ways to Announce Your Business Relocation"]
-
 ## Infographic
 
 Business relocation can be exciting but overwhelming. It's important to spread the word about your new location. Check out this infographic for five effective ways to announce your business relocation.

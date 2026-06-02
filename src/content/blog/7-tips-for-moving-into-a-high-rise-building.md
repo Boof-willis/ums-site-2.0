@@ -47,5 +47,3 @@ Communication and coordination are essential for moving into a high-rise buildin
 Embarking on the journey of moving into a high-rise brings numerous perks but demands strategic planning for a seamless transition. This infographic offers seven essential tips for a smooth move, encompassing crucial aspects such as decluttering, furniture planning, understanding building rules, coordination with management, hiring insured movers, taking safety precautions, and securing parking in advance. Elevate your moving experience with these valuable insights and ensure a hassle-free transition to elevated living.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="838734044" p_hash="838734044" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Seven-Tips-for-Moving-into-a-High-Rise-Building.jpg" alt="7 Tips for Moving into a High-Rise Building"]

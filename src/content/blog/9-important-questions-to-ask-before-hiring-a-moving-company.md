@@ -41,5 +41,3 @@ When hiring a moving company, strangers come in and out of your home and handle 
 Moving can be pricey, so it’s good to know in advance if you’ll be able to pay with a credit card. Make sure you know ahead of time which payment methods are accepted, so you’re not in a bind when the bill comes. When it comes to hiring movers, there are specific questions to ask to bring peace of mind and clarity. Please do your due diligence when researching full service moving companies and ask all the right questions, so there are no surprises. Hiring movers who are upfront and honest is crucial.
 
 ## Video
-
-[video_lightbox_vimeo5 video_id="746410715" p_hash="746410715" width="640" height="480" anchor="https://utahsmovingandstorage.com/wp-content/uploads/2023/07/Questions-to-Ask-Before-Hiring-a-Moving-Company.jpg" alt="9 Important Questions to Ask Before Hiring a Moving Company"]
