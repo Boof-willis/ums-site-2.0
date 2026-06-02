@@ -1,0 +1,24 @@
+---
+import Icon from "@/components/Icon.astro";
+import { BUSINESS } from "@/consts";
+---
+<aside class="mt-12 rounded-2xl border border-navy-100 bg-sand-50 p-6">
+  <div class="flex items-start gap-4">
+    <span class="grid h-14 w-14 shrink-0 place-items-center rounded-full bg-navy-900 text-canyon-400">
+      <Icon name="truck" class="h-7 w-7" />
+    </span>
+    <div>
+      <h3 class="font-bold text-navy-900">The Utah's Moving and Storage Team</h3>
+      <p class="mt-1 text-sm text-navy-600">
+        Founded by Derek Martin, Utah's Moving and Storage is a family-owned,
+        fully licensed Utah moving company (#{BUSINESS.license}) that has completed
+        thousands of local and long-distance moves across the Wasatch Front. Our
+        crews share hard-earned, on-the-job moving knowledge so your next move is
+        easier — whether you hire us or do it yourself.
+      </p>
+      <a href="/about/" class="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-canyon-700">
+        Meet the team <Icon name="arrow" class="h-4 w-4" />
+      </a>
+    </div>
+  </div>
+</aside>

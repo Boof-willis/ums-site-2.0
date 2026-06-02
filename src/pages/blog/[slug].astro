@@ -1,0 +1,100 @@
+---
+import { render } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import Icon from "@/components/Icon.astro";
+import AuthorBio from "@/components/AuthorBio.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import { getPublishedPosts, categorySlug, fmtDate } from "@/lib/blog";
+import { blogPostingNode, breadcrumbNode } from "@/lib/schema";
+import { BUSINESS } from "@/consts";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => {
+    const related = posts
+      .filter((p) => p.id !== post.id && p.data.category === post.data.category)
+      .slice(0, 3);
+    return { params: { slug: post.id }, props: { post, related } };
+  });
+}
+
+const { post, related } = Astro.props;
+const { Content, headings } = await render(post);
+const path = `/blog/${post.id}/`;
+const { title, description, pubDate, updatedDate, category, author } = post.data;
+
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "Blog", url: "/blog/" },
+  { name: title, url: path },
+];
+
+const schema = [
+  blogPostingNode({
+    url: path,
+    headline: title,
+    description,
+    datePublished: pubDate.toISOString(),
+    dateModified: (updatedDate ?? pubDate).toISOString(),
+    author,
+  }),
+  breadcrumbNode(crumbs),
+];
+---
+<BaseLayout
+  title={title}
+  description={description}
+  path={path}
+  ogType="article"
+  schema={schema}
+  datePublished={pubDate.toISOString()}
+  dateModified={(updatedDate ?? pubDate).toISOString()}
+>
+  <Breadcrumbs items={crumbs} />
+  <article class="container-page pb-8">
+    <div class="mx-auto max-w-3xl">
+      <a href={`/blog/category/${categorySlug(category)}/`} class="inline-block rounded-full bg-canyon-50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-canyon-700">{category}</a>
+      <h1 class="mt-4 text-3xl font-bold sm:text-4xl lg:text-[2.75rem] lg:leading-[1.1]">{title}</h1>
+      <p class="mt-4 text-lg text-navy-600">{description}</p>
+      <div class="mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-navy-500">
+        <span class="flex items-center gap-1.5"><Icon name="users" class="h-4 w-4" /> {author}</span>
+        <span class="flex items-center gap-1.5"><Icon name="calendar" class="h-4 w-4" /> <time datetime={pubDate.toISOString()}>{fmtDate(pubDate)}</time></span>
+      </div>
+
+      <div class="prose-ums mt-10 max-w-none">
+        <Content />
+      </div>
+
+      <AuthorBio />
+
+      <!-- Inline CTA -->
+      <div class="mt-10 rounded-2xl bg-navy-900 p-6 text-center text-white sm:p-8">
+        <h2 class="text-xl font-bold">Planning a move in Utah?</h2>
+        <p class="mt-2 text-navy-200">Get a free, no-obligation quote from a 4.9-star local team.</p>
+        <div class="mt-5 flex flex-col justify-center gap-3 sm:flex-row">
+          <a href="/quote/" class="btn-primary">Get a Free Quote</a>
+          <a href={BUSINESS.phoneHref} class="btn-ghost-light"><Icon name="phone" class="h-5 w-5" /> {BUSINESS.phone}</a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="container-page py-12">
+      <div class="mx-auto max-w-5xl">
+        <h2 class="text-2xl font-bold">Related articles</h2>
+        <div class="mt-6 grid gap-6 sm:grid-cols-3">
+          {related.map((r) => (
+            <a href={`/blog/${r.id}/`} class="group rounded-2xl border border-navy-100 bg-white p-5 transition-all hover:-translate-y-1 hover:shadow-lg">
+              <span class="text-xs font-semibold uppercase tracking-wider text-canyon-700">{r.data.category}</span>
+              <h3 class="mt-2 font-bold leading-snug group-hover:text-canyon-700">{r.data.title}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <CtaBand />
+</BaseLayout>

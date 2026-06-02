@@ -1,0 +1,24 @@
+---
+import Icon from "@/components/Icon.astro";
+interface Props {
+  items: { q: string; a: string }[];
+  heading?: string;
+}
+const { items, heading = "Frequently asked questions" } = Astro.props;
+---
+<section class="container-page my-20">
+  <div class="mx-auto max-w-3xl">
+    <h2 class="text-center text-3xl font-bold sm:text-4xl">{heading}</h2>
+    <div class="mt-10 divide-y divide-navy-100 border-y border-navy-100">
+      {items.map((item) => (
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-navy-900">
+            {item.q}
+            <Icon name="chevron" class="h-5 w-5 shrink-0 text-canyon-500 transition-transform group-open:rotate-180" />
+          </summary>
+          <div class="prose-ums mt-3 pr-8 text-navy-600" set:html={item.a} />
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

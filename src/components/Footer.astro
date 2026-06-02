@@ -1,0 +1,92 @@
+---
+import { BUSINESS, SERVICES, LOCATIONS } from "@/consts";
+import Icon from "@/components/Icon.astro";
+const year = new Date().getFullYear();
+---
+<footer class="mt-24 bg-navy-950 text-navy-200">
+  <div class="container-page grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-4">
+    <!-- Brand / NAP -->
+    <div>
+      <img
+        src="/images/logo-white.png"
+        alt={`${BUSINESS.legalName} logo`}
+        width="229"
+        height="50"
+        class="h-11 w-auto"
+      />
+      <p class="mt-4 text-sm leading-relaxed text-navy-300">
+        Family-owned, fully licensed Utah movers serving the Wasatch Front with
+        local, long-distance, and commercial moves since {BUSINESS.foundingYear}.
+      </p>
+      <div class="mt-4 flex items-center gap-1.5 text-sm">
+        <Icon name="star" class="h-4 w-4 text-canyon-400" />
+        <span class="font-semibold text-white">{BUSINESS.rating.value}</span>
+        <span class="text-navy-300">from {BUSINESS.rating.count}+ Google reviews</span>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <nav aria-label="Services">
+      <h2 class="font-display text-sm font-bold uppercase tracking-wider text-white">Services</h2>
+      <ul class="mt-4 space-y-2.5 text-sm">
+        {SERVICES.map((s) => (
+          <li>
+            <a href={`/services/${s.key}/`} class="text-navy-300 hover:text-canyon-400">{s.navLabel} Moving</a>
+          </li>
+        ))}
+        <li><a href="/pricing/" class="text-navy-300 hover:text-canyon-400">Pricing</a></li>
+        <li><a href="/moving-guide/" class="text-navy-300 hover:text-canyon-400">Moving Guide</a></li>
+      </ul>
+    </nav>
+
+    <!-- Locations -->
+    <nav aria-label="Service areas">
+      <h2 class="font-display text-sm font-bold uppercase tracking-wider text-white">Service Areas</h2>
+      <ul class="mt-4 grid grid-cols-2 gap-x-4 gap-y-2.5 text-sm">
+        {LOCATIONS.map((l) => (
+          <li>
+            <a href={`/locations/${l.slug}/`} class="text-navy-300 hover:text-canyon-400">{l.city}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- Contact -->
+    <div>
+      <h2 class="font-display text-sm font-bold uppercase tracking-wider text-white">Get in Touch</h2>
+      <ul class="mt-4 space-y-3 text-sm">
+        <li class="flex items-start gap-2.5">
+          <Icon name="phone" class="mt-0.5 h-4 w-4 shrink-0 text-canyon-400" />
+          <a href={BUSINESS.phoneHref} class="hover:text-canyon-400">{BUSINESS.phone}</a>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <Icon name="mail" class="mt-0.5 h-4 w-4 shrink-0 text-canyon-400" />
+          <a href={`mailto:${BUSINESS.email}`} class="break-all hover:text-canyon-400">{BUSINESS.email}</a>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <Icon name="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-canyon-400" />
+          <address class="not-italic text-navy-300">
+            {BUSINESS.address.street}<br />
+            {BUSINESS.address.city}, {BUSINESS.address.region} {BUSINESS.address.postalCode}
+          </address>
+        </li>
+        <li class="flex items-start gap-2.5">
+          <Icon name="clock" class="mt-0.5 h-4 w-4 shrink-0 text-canyon-400" />
+          <span class="text-navy-300">Mon–Sat: 7am–7pm</span>
+        </li>
+      </ul>
+      <a href="/quote/" class="btn-primary mt-5 w-full text-sm">Get a Free Quote</a>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="container-page flex flex-col items-center justify-between gap-3 py-6 text-xs text-navy-400 sm:flex-row">
+      <p>© {year} {BUSINESS.legalName}. Utah Motor Carrier #{BUSINESS.license}.</p>
+      <nav class="flex gap-5" aria-label="Legal">
+        <a href="/privacy-policy/" class="hover:text-canyon-400">Privacy Policy</a>
+        <a href="/terms-of-service/" class="hover:text-canyon-400">Terms of Service</a>
+        <a href="/sitemap-index.xml" class="hover:text-canyon-400">Sitemap</a>
+      </nav>
+    </div>
+  </div>
+</footer>

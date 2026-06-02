@@ -1,0 +1,131 @@
+# Redirects from old WordPress URLs -> new structure (301 permanent)
+
+# Home
+/home/  /  301
+
+# Services (old root-level service pages)
+/residential/  /services/residential/  301
+/commercial/  /services/commercial/  301
+/long-distance/  /services/long-distance/  301
+/packing/  /services/packing/  301
+
+# Locations
+/locations-served/  /locations/  301
+/orem-utah-moving-company/  /locations/orem/  301
+/provo-utah-moving-company/  /locations/provo/  301
+/salt-lake-city-utah-moving-company/  /locations/salt-lake-city/  301
+/lehi-utah-moving-company/  /locations/lehi/  301
+/draper-utah-moving-company/  /locations/draper/  301
+/sandy-utah-moving-company/  /locations/sandy/  301
+/west-jordan-utah-moving-company/  /locations/west-jordan/  301
+/saratoga-springs-utah-moving-company/  /locations/saratoga-springs/  301
+/spanish-fork-utah-moving-company/  /locations/spanish-fork/  301
+/park-city-utah-moving-company/  /locations/park-city/  301
+
+# Moving guide
+/ultimate-moving-guide/  /moving-guide/  301
+/preparing-for-a-residential-move/  /moving-guide/preparing-for-a-residential-move/  301
+/preparing-for-a-long-distance-move/  /moving-guide/preparing-for-a-long-distance-move/  301
+/preparing-to-move-company-offices/  /moving-guide/preparing-to-move-company-offices/  301
+/moving-week-checklist/  /moving-guide/moving-week-checklist/  301
+/moving-day-checklist/  /moving-guide/moving-day-checklist/  301
+/packing-supplies-and-advice/  /moving-guide/packing-supplies-and-advice/  301
+
+# Old landing / thank-you pages
+/thank-you-application/  /thank-you/  301
+/thank-you-contact/  /thank-you/  301
+/thank-you-lp/  /thank-you/  301
+/thank-you-page/  /thank-you/  301
+/thanks/  /thank-you/  301
+/lp/  /quote/  301
+/noform/  /quote/  301
+/offer/  /quote/  301
+
+# Blog posts moved from root to /blog/ (87 posts)
+/11-items-to-do-before-moving-into-a-new-apartment/  /blog/11-items-to-do-before-moving-into-a-new-apartment/  301
+/11-quick-tips-for-moving-in-the-wintertime/  /blog/11-quick-tips-for-moving-in-the-wintertime/  301
+/11-tips-for-preparing-your-vehicle-for-transport/  /blog/11-tips-for-preparing-your-vehicle-for-transport/  301
+/11-tips-for-relocating-your-business/  /blog/11-tips-for-relocating-your-business/  301
+/11-tips-for-safely-packing-your-book-collection/  /blog/11-tips-for-safely-packing-your-book-collection/  301
+/5-dos-and-5-donts-to-make-your-first-move-easier/  /blog/5-dos-and-5-donts-to-make-your-first-move-easier/  301
+/5-hacks-for-staying-on-track-for-your-short-notice-move/  /blog/5-hacks-for-staying-on-track-for-your-short-notice-move/  301
+/5-items-to-check-off-your-summer-moving-checklist/  /blog/5-items-to-check-off-your-summer-moving-checklist/  301
+/5-meal-planning-tips-for-moving-day-and-beyond/  /blog/5-meal-planning-tips-for-moving-day-and-beyond/  301
+/5-myths-about-moving-companies-debunked/  /blog/5-myths-about-moving-companies-debunked/  301
+/5-signs-you-should-move-in-with-your-partner/  /blog/5-signs-you-should-move-in-with-your-partner/  301
+/5-things-that-can-go-wrong-during-a-move-and-how-to-resolve-them/  /blog/5-things-that-can-go-wrong-during-a-move-and-how-to-resolve-them/  301
+/5-ways-to-announce-your-business-relocation/  /blog/5-ways-to-announce-your-business-relocation/  301
+/6-red-flags-that-scream-moving-scam/  /blog/6-red-flags-that-scream-moving-scam/  301
+/7-factors-to-consider-before-deciding-to-relocate/  /blog/7-factors-to-consider-before-deciding-to-relocate/  301
+/7-moving-tips-to-help-those-with-disabilities/  /blog/7-moving-tips-to-help-those-with-disabilities/  301
+/7-qualities-of-an-exceptional-moving-company-in-utah/  /blog/7-qualities-of-an-exceptional-moving-company-in-utah/  301
+/7-reasons-utah-is-the-optimal-place-for-business-relocation/  /blog/7-reasons-utah-is-the-optimal-place-for-business-relocation/  301
+/7-reasons-why-you-should-declutter-before-moving-day/  /blog/7-reasons-why-you-should-declutter-before-moving-day/  301
+/7-strategies-for-clearing-out-your-fridge-and-pantry-before-moving/  /blog/7-strategies-for-clearing-out-your-fridge-and-pantry-before-moving/  301
+/7-tips-for-frequent-movers/  /blog/7-tips-for-frequent-movers/  301
+/7-tips-for-moving-in-together-after-tying-the-knot/  /blog/7-tips-for-moving-in-together-after-tying-the-knot/  301
+/7-tips-for-moving-into-a-high-rise-building/  /blog/7-tips-for-moving-into-a-high-rise-building/  301
+/7-tips-for-moving-with-a-baby-on-board/  /blog/7-tips-for-moving-with-a-baby-on-board/  301
+/7-tips-for-packing-valuables/  /blog/7-tips-for-packing-valuables/  301
+/7-tips-for-protecting-sensitive-data-during-commercial-moves/  /blog/7-tips-for-protecting-sensitive-data-during-commercial-moves/  301
+/7-tips-to-ensure-safe-transport-for-your-wine-collection/  /blog/7-tips-to-ensure-safe-transport-for-your-wine-collection/  301
+/7-tips-to-keep-your-plants-safe-on-moving-day/  /blog/7-tips-to-keep-your-plants-safe-on-moving-day/  301
+/7-top-reasons-to-relocate-your-business/  /blog/7-top-reasons-to-relocate-your-business/  301
+/7-ways-to-support-your-teen-during-a-move/  /blog/7-ways-to-support-your-teen-during-a-move/  301
+/9-important-questions-to-ask-before-hiring-a-moving-company/  /blog/9-important-questions-to-ask-before-hiring-a-moving-company/  301
+/9-reasons-to-move-to-the-beehive-state/  /blog/9-reasons-to-move-to-the-beehive-state/  301
+/9-reasons-why-moving-is-easy-when-you-hire-a-professional-moving-company/  /blog/9-reasons-why-moving-is-easy-when-you-hire-a-professional-moving-company/  301
+/9-things-you-should-do-before-the-moving-company-arrives/  /blog/9-things-you-should-do-before-the-moving-company-arrives/  301
+/9-tips-and-tricks-for-keeping-track-of-your-most-valuable-items/  /blog/9-tips-and-tricks-for-keeping-track-of-your-most-valuable-items/  301
+/9-tips-for-moving-with-your-furry-and-feathered-friends/  /blog/9-tips-for-moving-with-your-furry-and-feathered-friends/  301
+/9-tips-to-prepare-for-professional-packers/  /blog/9-tips-to-prepare-for-professional-packers/  301
+/9-ways-to-make-your-move-easier-on-the-kids/  /blog/9-ways-to-make-your-move-easier-on-the-kids/  301
+/a-simple-guide-to-updating-your-address/  /blog/a-simple-guide-to-updating-your-address/  301
+/creative-purposes-for-your-leftover-moving-boxes/  /blog/creative-purposes-for-your-leftover-moving-boxes/  301
+/did-you-trust-local-movers-to-assemble-and-disassemble-your-furniture-when-moved/  /blog/did-you-trust-local-movers-to-assemble-and-disassemble-your-furniture-when-moved/  301
+/differences-hiring-professional-movers-and-moving-by-yourself/  /blog/differences-hiring-professional-movers-and-moving-by-yourself/  301
+/do-a-good-deed-leave-a-review-for-others-to-read/  /blog/do-a-good-deed-leave-a-review-for-others-to-read/  301
+/finding-a-storage-company-for-families-who-are-moving/  /blog/finding-a-storage-company-for-families-who-are-moving/  301
+/get-a-pump-in-while-moving-how-to-move-your-home-gym/  /blog/get-a-pump-in-while-moving-how-to-move-your-home-gym/  301
+/help-your-pet-adjust-to-their-environment-when-moving-to-a-new-home/  /blog/help-your-pet-adjust-to-their-environment-when-moving-to-a-new-home/  301
+/hiring-professional-movers-vs-doing-it-yourself/  /blog/hiring-professional-movers-vs-doing-it-yourself/  301
+/house-problems-to-resolve-before-moving-in/  /blog/house-problems-to-resolve-before-moving-in/  301
+/how-can-i-ensure-that-my-valuables-are-safe-when-i-move/  /blog/how-can-i-ensure-that-my-valuables-are-safe-when-i-move/  301
+/how-can-i-help-my-friend-during-the-moving-process-without-doing-any-heavy-lifting/  /blog/how-can-i-help-my-friend-during-the-moving-process-without-doing-any-heavy-lifting/  301
+/how-do-i-relieve-anxiety-when-moving-houses/  /blog/how-do-i-relieve-anxiety-when-moving-houses/  301
+/how-to-choose-the-right-moving-truck-size/  /blog/how-to-choose-the-right-moving-truck-size/  301
+/how-to-ensure-a-moving-company-will-have-your-back/  /blog/how-to-ensure-a-moving-company-will-have-your-back/  301
+/how-to-identify-and-deal-with-moving-company-scams/  /blog/how-to-identify-and-deal-with-moving-company-scams/  301
+/how-to-prepare-for-professional-packers/  /blog/how-to-prepare-for-professional-packers/  301
+/how-to-reduce-moving-costs-and-which-fees-are-negotiable/  /blog/how-to-reduce-moving-costs-and-which-fees-are-negotiable/  301
+/how-to-secure-your-electronics-for-moving/  /blog/how-to-secure-your-electronics-for-moving/  301
+/how-to-stay-organized-to-minimize-stress-while-moving/  /blog/how-to-stay-organized-to-minimize-stress-while-moving/  301
+/how-to-survive-a-move-with-an-aging-loved-one/  /blog/how-to-survive-a-move-with-an-aging-loved-one/  301
+/items-movers-wont-move/  /blog/items-movers-wont-move/  301
+/items-to-leave-behind-when-packing-for-your-move/  /blog/items-to-leave-behind-when-packing-for-your-move/  301
+/lazy-moving-hacks-how-to-move-without-breaking-a-sweat/  /blog/lazy-moving-hacks-how-to-move-without-breaking-a-sweat/  301
+/moving-during-peak-season/  /blog/moving-during-peak-season/  301
+/moving-guide-how-to-declutter-your-home-ahead-of-a-move/  /blog/moving-guide-how-to-declutter-your-home-ahead-of-a-move/  301
+/moving-tips-for-your-outdoor-belongings/  /blog/moving-tips-for-your-outdoor-belongings/  301
+/moving-with-kids-15-tips-to-avoid-chaos-and-meltdowns/  /blog/moving-with-kids-15-tips-to-avoid-chaos-and-meltdowns/  301
+/risks-of-cheapest-moving-company-just-to-save-more-money/  /blog/risks-of-cheapest-moving-company-just-to-save-more-money/  301
+/should-you-hire-a-local-mover-or-do-it-yourself/  /blog/should-you-hire-a-local-mover-or-do-it-yourself/  301
+/some-tips-for-keeping-kids-entertained-during-a-long-move/  /blog/some-tips-for-keeping-kids-entertained-during-a-long-move/  301
+/the-pros-and-cons-of-moving-by-yourself/  /blog/the-pros-and-cons-of-moving-by-yourself/  301
+/the-pros-and-cons-of-relocating/  /blog/the-pros-and-cons-of-relocating/  301
+/thinking-about-downsizing-here-are-the-pros-and-cons/  /blog/thinking-about-downsizing-here-are-the-pros-and-cons/  301
+/tips-and-tricks-for-ensuring-a-smooth-unpacking-process-when-moving/  /blog/tips-and-tricks-for-ensuring-a-smooth-unpacking-process-when-moving/  301
+/top-7-reasons-people-relocate-to-a-different-state/  /blog/top-7-reasons-people-relocate-to-a-different-state/  301
+/top-strategies-for-packing-belongings-when-relocating/  /blog/top-strategies-for-packing-belongings-when-relocating/  301
+/what-are-some-common-misconceptions-about-moving/  /blog/what-are-some-common-misconceptions-about-moving/  301
+/what-are-some-items-you-should-never-load-into-a-moving-truck/  /blog/what-are-some-items-you-should-never-load-into-a-moving-truck/  301
+/what-are-some-of-the-most-common-reasons-people-move-houses/  /blog/what-are-some-of-the-most-common-reasons-people-move-houses/  301
+/what-are-some-tips-for-transporting-a-grand-piano-to-a-new-home/  /blog/what-are-some-tips-for-transporting-a-grand-piano-to-a-new-home/  301
+/what-does-moving-insurance-cover/  /blog/what-does-moving-insurance-cover/  301
+/what-is-your-biggest-tip-for-making-the-moving-process-easier/  /blog/what-is-your-biggest-tip-for-making-the-moving-process-easier/  301
+/what-isnt-covered-by-a-moving-company/  /blog/what-isnt-covered-by-a-moving-company/  301
+/what-qualifications-should-i-look-for-when-hiring-a-local-moving-business/  /blog/what-qualifications-should-i-look-for-when-hiring-a-local-moving-business/  301
+/what-red-flags-should-customers-watch-out-for-when-hiring-a-local-moving-company/  /blog/what-red-flags-should-customers-watch-out-for-when-hiring-a-local-moving-company/  301
+/whats-the-difference-between-moving-brokers-and-moving-companies/  /blog/whats-the-difference-between-moving-brokers-and-moving-companies/  301
+/which-furniture-is-the-hardest-for-movers-to-assemble-and-disassemble/  /blog/which-furniture-is-the-hardest-for-movers-to-assemble-and-disassemble/  301
+/which-household-items-are-hard-to-move-without-a-moving-company/  /blog/which-household-items-are-hard-to-move-without-a-moving-company/  301

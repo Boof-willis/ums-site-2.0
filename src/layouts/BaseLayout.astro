@@ -1,0 +1,150 @@
+---
+import "@/styles/global.css";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { BUSINESS, SITE_URL } from "@/consts";
+import {
+  graph,
+  businessNode,
+  websiteNode,
+  founderNode,
+  webPageNode,
+} from "@/lib/schema";
+
+interface Props {
+  title: string;
+  description: string;
+  /** Path beginning with "/" (canonical). Defaults to current pathname. */
+  path?: string;
+  ogImage?: string;
+  ogType?: "website" | "article";
+  noindex?: boolean;
+  /** Extra JSON-LD nodes for this page (Service, FAQPage, BlogPosting, …). */
+  schema?: object[];
+  isFAQ?: boolean;
+  datePublished?: string;
+  dateModified?: string;
+}
+
+const {
+  title,
+  description,
+  path = Astro.url.pathname,
+  ogImage = "/images/og-default.jpg",
+  ogType = "website",
+  noindex = false,
+  schema = [],
+  isFAQ = false,
+  datePublished,
+  dateModified,
+} = Astro.props;
+
+const canonical = new URL(path, SITE_URL).href;
+const ogImageAbs = new URL(ogImage, SITE_URL).href;
+const fullTitle = title.includes(BUSINESS.name)
+  ? title
+  : `${title} | ${BUSINESS.name}`;
+
+const jsonld = graph([
+  businessNode(),
+  founderNode(),
+  websiteNode(),
+  webPageNode({
+    url: path,
+    name: title,
+    description,
+    datePublished,
+    dateModified,
+  }),
+  ...schema,
+]);
+---
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large" />}
+
+    <meta name="theme-color" content="#0a1b2e" />
+    <meta name="author" content={BUSINESS.legalName} />
+    <meta name="geo.region" content="US-UT" />
+    <meta name="geo.placename" content={BUSINESS.address.city} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={BUSINESS.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageAbs} />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageAbs} />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <!-- JSON-LD structured data -->
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(jsonld)}
+    />
+  </head>
+  <body>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-navy-900 focus:px-4 focus:py-2 focus:text-white"
+      >Skip to content</a
+    >
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Progressive enhancement for all lead-capture forms (.quote-form) -->
+    <script>
+      document.querySelectorAll<HTMLFormElement>(".quote-form").forEach((form) => {
+        form.addEventListener("submit", async (e) => {
+          e.preventDefault();
+          const status = form.querySelector<HTMLElement>(".form-status");
+          const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+          const original = btn?.textContent ?? "Submit";
+          if ((form.elements.namedItem("company_website") as HTMLInputElement)?.value) return;
+          if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
+          if (status) { status.textContent = ""; status.className = "form-status text-sm"; }
+          try {
+            const data = Object.fromEntries(new FormData(form).entries());
+            const res = await fetch(form.action, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(data),
+            });
+            if (!res.ok) throw new Error("Request failed");
+            window.location.href = "/thank-you/";
+          } catch (err) {
+            if (status) {
+              status.textContent = "Sorry, something went wrong. Please call us at (801) 980-0223.";
+              status.className = "form-status text-sm text-canyon-700";
+            }
+            if (btn) { btn.disabled = false; btn.textContent = original; }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

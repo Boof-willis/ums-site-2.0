@@ -1,0 +1,51 @@
+# robots.txt — Utah's Moving and Storage
+# Allow all standard + major AI search crawlers; block training-only scrapers.
+
+User-agent: *
+Allow: /
+
+# ── AI answer-engine crawlers (search/citation) — explicitly allowed ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ── Training-only / aggressive scrapers — blocked ──
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://utahsmovingandstorage.com/sitemap-index.xml

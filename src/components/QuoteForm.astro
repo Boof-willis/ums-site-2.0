@@ -1,0 +1,227 @@
+---
+import Icon from "@/components/Icon.astro";
+import Stars from "@/components/Stars.astro";
+import { SERVICES, LEAD_ENDPOINT, BUSINESS } from "@/consts";
+
+interface Props {
+  compact?: boolean; // kept for backwards-compat; layout is identical now
+  source?: string; // page/source label sent to GHL
+}
+const { source = "website" } = Astro.props;
+
+const moveTypes = [
+  { value: "Residential", icon: "home", label: "Home / Residential" },
+  { value: "Long-Distance", icon: "route", label: "Long-distance / out of state" },
+  { value: "Commercial", icon: "building", label: "Office / Commercial" },
+  { value: "Packing", icon: "box", label: "Packing & supplies" },
+  { value: "Not sure yet", icon: "quote", label: "Not sure yet" },
+];
+const moveSizes = [
+  { value: "A few items / single item", icon: "box", label: "A few items / single item" },
+  { value: "Studio or 1 bedroom", icon: "home", label: "Studio or 1 bedroom" },
+  { value: "2 bedrooms", icon: "home", label: "2 bedrooms" },
+  { value: "3 bedrooms", icon: "home", label: "3 bedrooms" },
+  { value: "4+ bedrooms", icon: "building", label: "4+ bedrooms" },
+  { value: "Office / commercial", icon: "building", label: "Office / commercial" },
+];
+const timeframes = [
+  { value: "As soon as possible", icon: "clock", label: "As soon as possible" },
+  { value: "Within 2 weeks", icon: "calendar", label: "Within 2 weeks" },
+  { value: "This month", icon: "calendar", label: "This month" },
+  { value: "In 1–2 months", icon: "calendar", label: "In 1–2 months" },
+  { value: "Just planning / flexible", icon: "quote", label: "Just planning / flexible" },
+];
+---
+<form
+  class="quote-form"
+  data-multistep
+  method="POST"
+  action={LEAD_ENDPOINT}
+  data-source={source}
+>
+  <!-- Honeypot -->
+  <div class="hidden" aria-hidden="true">
+    <label>Leave this empty <input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <input type="hidden" name="source" value={source} />
+
+  <!-- Progress -->
+  <div class="mb-5">
+    <div class="mb-1.5 flex items-center justify-between text-xs font-medium text-navy-500">
+      <span data-step-counter>Step 1 of 5</span>
+      <span>Takes ~30 seconds · No obligation</span>
+    </div>
+    <div class="h-1.5 w-full overflow-hidden rounded-full bg-navy-100">
+      <div data-progress class="h-full rounded-full bg-canyon-500 transition-all duration-300" style="width:20%"></div>
+    </div>
+  </div>
+
+  <!-- STEP 1: Move type -->
+  <fieldset data-step data-autoadvance>
+    <legend class="mb-3 block text-lg font-bold text-navy-900">What kind of move is it?</legend>
+    <div class="grid gap-2.5 sm:grid-cols-2">
+      {moveTypes.map((o) => (
+        <label class="choice-card">
+          <input type="radio" name="moveType" value={o.value} class="sr-only" data-choice />
+          <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-navy-900 text-canyon-400"><Icon name={o.icon} class="h-5 w-5" /></span>
+          <span>{o.label}</span>
+        </label>
+      ))}
+    </div>
+  </fieldset>
+
+  <!-- STEP 2: Move size -->
+  <fieldset data-step hidden data-autoadvance>
+    <legend class="mb-3 block text-lg font-bold text-navy-900">About how big is the move?</legend>
+    <div class="grid gap-2.5 sm:grid-cols-2">
+      {moveSizes.map((o) => (
+        <label class="choice-card">
+          <input type="radio" name="moveSize" value={o.value} class="sr-only" data-choice />
+          <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-navy-900 text-canyon-400"><Icon name={o.icon} class="h-5 w-5" /></span>
+          <span>{o.label}</span>
+        </label>
+      ))}
+    </div>
+    <div class="mt-5 flex justify-between">
+      <button type="button" data-back class="btn-back">← Back</button>
+    </div>
+  </fieldset>
+
+  <!-- STEP 3: Locations -->
+  <fieldset data-step hidden>
+    <legend class="mb-3 block text-lg font-bold text-navy-900">Where are you moving?</legend>
+    <div class="grid gap-3 sm:grid-cols-2">
+      <div>
+        <label for="qf-from" class="mb-1 block text-sm font-medium text-navy-700">Moving from</label>
+        <input id="qf-from" name="fromLocation" type="text" autocomplete="address-level2"
+          class="qf-input" placeholder="City or ZIP (e.g. Orem)" />
+      </div>
+      <div>
+        <label for="qf-to" class="mb-1 block text-sm font-medium text-navy-700">Moving to</label>
+        <input id="qf-to" name="toLocation" type="text"
+          class="qf-input" placeholder="City or ZIP (e.g. Lehi)" />
+      </div>
+    </div>
+    <div class="mt-4 space-y-2.5">
+      <label class="toggle-card">
+        <input type="checkbox" name="stairs" value="Yes" class="h-4 w-4 accent-canyon-500" />
+        <span>There are stairs or an elevator at one or both places</span>
+      </label>
+      <label class="toggle-card">
+        <input type="checkbox" name="needsPacking" value="Yes" class="h-4 w-4 accent-canyon-500" />
+        <span>I'd like a quote for packing help too</span>
+      </label>
+    </div>
+    <div class="mt-5 flex justify-between">
+      <button type="button" data-back class="btn-back">← Back</button>
+      <button type="button" data-next class="btn-primary px-5 py-2.5 text-sm">Continue →</button>
+    </div>
+  </fieldset>
+
+  <!-- STEP 4: Timeframe -->
+  <fieldset data-step hidden data-autoadvance>
+    <legend class="mb-3 block text-lg font-bold text-navy-900">When do you need to move?</legend>
+    <div class="grid gap-2.5 sm:grid-cols-2">
+      {timeframes.map((o) => (
+        <label class="choice-card">
+          <input type="radio" name="timeframe" value={o.value} class="sr-only" data-choice />
+          <span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-navy-900 text-canyon-400"><Icon name={o.icon} class="h-5 w-5" /></span>
+          <span>{o.label}</span>
+        </label>
+      ))}
+    </div>
+    <div class="mt-5 flex justify-between">
+      <button type="button" data-back class="btn-back">← Back</button>
+    </div>
+  </fieldset>
+
+  <!-- STEP 5: Contact -->
+  <fieldset data-step hidden>
+    <legend class="mb-1 block text-lg font-bold text-navy-900">Last step — where should we send your quote?</legend>
+    <p class="mb-4 text-sm text-navy-500">We'll text or email your estimate. No spam, ever.</p>
+    <div class="space-y-3">
+      <div>
+        <label for="qf-name" class="mb-1 block text-sm font-medium text-navy-700">Name *</label>
+        <input id="qf-name" name="name" type="text" required autocomplete="name" class="qf-input" placeholder="Your name" />
+      </div>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div>
+          <label for="qf-phone" class="mb-1 block text-sm font-medium text-navy-700">Phone *</label>
+          <input id="qf-phone" name="phone" type="tel" required autocomplete="tel" class="qf-input" placeholder="(801) 555-0123" />
+        </div>
+        <div>
+          <label for="qf-email" class="mb-1 block text-sm font-medium text-navy-700">Email *</label>
+          <input id="qf-email" name="email" type="email" required autocomplete="email" class="qf-input" placeholder="you@example.com" />
+        </div>
+      </div>
+      <div>
+        <label for="qf-date" class="mb-1 block text-sm font-medium text-navy-700">Preferred date <span class="font-normal text-navy-400">(optional)</span></label>
+        <input id="qf-date" name="moveDate" type="date" class="qf-input" />
+      </div>
+      <div>
+        <label for="qf-notes" class="mb-1 block text-sm font-medium text-navy-700">Anything else? <span class="font-normal text-navy-400">(optional)</span></label>
+        <textarea id="qf-notes" name="notes" rows="2" class="qf-input" placeholder="Specialty items (piano, safe, gym), parking, etc."></textarea>
+      </div>
+    </div>
+    <div class="mt-5 flex items-center justify-between gap-3">
+      <button type="button" data-back class="btn-back">← Back</button>
+      <button type="submit" class="btn-primary flex-1">Get My Free Quote</button>
+    </div>
+    <p class="form-status mt-3 text-sm" role="status" aria-live="polite"></p>
+    <div class="mt-3 flex items-center justify-center gap-2 text-xs text-navy-500">
+      <Stars class="h-3.5 w-3.5" /> <span>Rated {BUSINESS.rating.value} by {BUSINESS.rating.count}+ Utah customers</span>
+    </div>
+  </fieldset>
+</form>
+
+<script>
+  function initMultistep(form: HTMLFormElement) {
+    const steps = [...form.querySelectorAll<HTMLElement>("[data-step]")];
+    const bar = form.querySelector<HTMLElement>("[data-progress]");
+    const counter = form.querySelector<HTMLElement>("[data-step-counter]");
+    let current = 0;
+
+    const show = (i: number) => {
+      current = Math.max(0, Math.min(i, steps.length - 1));
+      steps.forEach((s, idx) => (s.hidden = idx !== current));
+      const pct = ((current + 1) / steps.length) * 100;
+      if (bar) bar.style.width = pct + "%";
+      if (counter) counter.textContent = `Step ${current + 1} of ${steps.length}`;
+      const focusable = steps[current].querySelector<HTMLElement>(
+        "input:not([type=radio]):not(.sr-only), [data-next], button[type=submit]"
+      );
+      focusable?.focus({ preventScroll: true });
+      steps[current].scrollIntoView({ block: "nearest", behavior: "smooth" });
+    };
+
+    const validStep = (i: number) => {
+      for (const el of steps[i].querySelectorAll<HTMLInputElement>("[required]")) {
+        if (!el.reportValidity()) return false;
+      }
+      return true;
+    };
+
+    form.querySelectorAll("[data-next]").forEach((b) =>
+      b.addEventListener("click", () => validStep(current) && show(current + 1))
+    );
+    form.querySelectorAll("[data-back]").forEach((b) =>
+      b.addEventListener("click", () => show(current - 1))
+    );
+    // Auto-advance on choice selection.
+    form.querySelectorAll<HTMLInputElement>("[data-autoadvance] input[data-choice]").forEach((r) =>
+      r.addEventListener("change", () => setTimeout(() => show(current + 1), 180))
+    );
+    // Enter advances instead of submitting (except on the last step).
+    form.addEventListener("keydown", (e) => {
+      if ((e as KeyboardEvent).key === "Enter" && current < steps.length - 1) {
+        e.preventDefault();
+        if (validStep(current)) show(current + 1);
+      }
+    });
+
+    show(0);
+  }
+  document
+    .querySelectorAll<HTMLFormElement>(".quote-form[data-multistep]")
+    .forEach(initMultistep);
+</script>

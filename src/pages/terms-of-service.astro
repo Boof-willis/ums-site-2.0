@@ -1,0 +1,46 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import { BUSINESS } from "@/consts";
+import { breadcrumbNode } from "@/lib/schema";
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "Terms of Service", url: "/terms-of-service/" },
+];
+const updated = "June 2, 2026";
+---
+<BaseLayout
+  title="Terms of Service | Utah's Moving and Storage"
+  description="The terms governing use of the Utah's Moving and Storage website and the moving services we provide."
+  path="/terms-of-service/"
+  schema={[breadcrumbNode(crumbs)]}
+>
+  <Breadcrumbs items={crumbs} />
+  <article class="container-page pb-16">
+    <div class="mx-auto max-w-3xl">
+      <h1 class="text-3xl font-bold sm:text-4xl">Terms of Service</h1>
+      <p class="mt-2 text-sm text-navy-500">Last updated: {updated}</p>
+      <div class="prose-ums mt-8">
+        <p>These Terms of Service ("Terms") govern your use of the website and moving services provided by {BUSINESS.legalName} ("we," "us," or "our"). By using our website or booking our services, you agree to these Terms.</p>
+
+        <h2>Quotes and estimates</h2>
+        <p>Quotes provided through our website, by phone, or after a walkthrough are estimates based on the information available at the time. Final charges may vary based on the actual size, access, and circumstances of your move. We will communicate any material changes before proceeding.</p>
+
+        <h2>Services</h2>
+        <p>We provide residential, long-distance, commercial, and packing services as a licensed Utah motor carrier (license #{BUSINESS.license}). Service availability is subject to scheduling, location, and the nature of the items being moved. Certain hazardous, perishable, or prohibited items cannot be transported.</p>
+
+        <h2>Payment</h2>
+        <p>Payment is due as agreed at the time of service unless otherwise arranged in writing. Local moves are billed at the applicable hourly rate with any stated minimums; long-distance and specialty moves are billed per the agreed quote.</p>
+
+        <h2>Liability</h2>
+        <p>Basic carrier liability is included on every move. Additional valuation coverage may be available upon request. Claims for loss or damage must be reported promptly in accordance with applicable law and our claims process.</p>
+
+        <h2>Website use</h2>
+        <p>The content on this website is provided for general information. You agree not to misuse the site or attempt to disrupt its operation. We may update the site and these Terms at any time.</p>
+
+        <h2>Contact us</h2>
+        <p>Questions about these Terms? Contact {BUSINESS.legalName} at <a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a> or <a href={BUSINESS.phoneHref}>{BUSINESS.phone}</a>.</p>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

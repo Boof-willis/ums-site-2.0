@@ -1,0 +1,99 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import Icon from "@/components/Icon.astro";
+import Stars from "@/components/Stars.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import { BUSINESS } from "@/consts";
+import { breadcrumbNode } from "@/lib/schema";
+
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "About", url: "/about/" },
+];
+
+const values = [
+  { icon: "users", title: "Trained, permanent crews", text: "No temps or day-labor. Every mover is trained to crew-leader level before they handle a single box — many big chains can't say that." },
+  { icon: "check-circle", title: "Honest, upfront pricing", text: "Derek started this company partly to end the bait-and-switch tactics he saw elsewhere. The price we quote is the price you pay." },
+  { icon: "shield", title: "Customer-first service", text: "White-glove care from a clean-cut team who remember they're guests in your home." },
+  { icon: "map-pin", title: "Local & family-owned", text: "We're your Orem-based neighbors, not a faceless national chain. We treat you that way." },
+];
+---
+<BaseLayout
+  title="About Utah's Moving and Storage | Family-Owned Utah Movers"
+  description="Meet Utah's Moving and Storage — a family-owned Utah moving company founded by Derek Martin to fix what's broken in the industry: untrained crews and surprise fees."
+  path="/about/"
+  schema={[breadcrumbNode(crumbs)]}
+>
+  <section class="bg-navy-950">
+    <Breadcrumbs items={crumbs} dark />
+    <div class="container-page grid gap-10 pb-16 pt-6 lg:grid-cols-2 lg:items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-sm text-navy-100">
+          <Stars class="h-4 w-4" /> <span><strong class="text-white">{BUSINESS.rating.value}</strong> from {BUSINESS.rating.count}+ reviews</span>
+        </div>
+        <h1 class="mt-5 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Family-owned Utah movers who actually care</h1>
+        <p class="mt-5 text-lg text-navy-200">Utah's Moving and Storage was founded to elevate the Utah moving industry with meticulously trained crews, honest pricing, and genuine customer care.</p>
+      </div>
+      <div class="rounded-2xl bg-white/5 p-8 ring-1 ring-white/10">
+        <Icon name="quote" class="h-8 w-8 text-canyon-400" />
+        <blockquote class="mt-4 text-xl font-medium text-white">"We treat your belongings like our own — so you can focus on the excitement of your move instead of the dread."</blockquote>
+        <p class="mt-4 text-sm text-navy-300">— {BUSINESS.founder}, Founder &amp; Owner</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder story -->
+  <section class="container-page py-16">
+    <div class="mx-auto max-w-3xl prose-ums text-lg">
+      <h2>How we got started</h2>
+      <p>Our owner, {BUSINESS.founder}, was a college kid moving on the side for extra money. He loved the work — diffusing stressful times in people's lives with both courtesy and care. He liked the challenge of packing a truck efficiently and the satisfaction of a job done right.</p>
+      <p>What he didn't like were the serious shortcomings he saw in the moving industry: untrained staff carelessly packing people's prized possessions, furniture dismantled with no clear plan for putting it back together, and people hired off the street with no care for the customer experience.</p>
+      <p>He saw bait-and-switch tactics, where companies would offer one price and then tack on extra costs at the end. He saw crews that showed up late — or just didn't show. Utah's Moving and Storage was born to solve these problems.</p>
+      <p>Today, our family-owned and operated business is elevating the Utah moving industry to new heights with meticulously trained crews and a relentless focus on customer service. Whether you need a professional moving company from Orem to Lehi to Salt Lake City or beyond, we promise unparalleled service and professionalism.</p>
+
+      <h2>Why choose local?</h2>
+      <p>There are plenty of big, national moving chains — but when you choose our local company, you get a different brand of service. We customize your move to fit your exact needs instead of locking you into rigid, overpriced packages. And the only people who handle your belongings are our own regular, trained employees — not temp workers with little to no experience.</p>
+      <p>You'll feel a personal touch from our Orem-based professional movers and packers that you just won't get from the big chains. We're your neighbors, and we'll treat you that way.</p>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="bg-sand-50 py-16">
+    <div class="container-page">
+      <h2 class="text-center text-3xl font-bold">What sets us apart</h2>
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {values.map((v) => (
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <span class="grid h-11 w-11 place-items-center rounded-xl bg-canyon-50 text-canyon-600"><Icon name={v.icon} class="h-6 w-6" /></span>
+            <h3 class="mt-4 font-bold">{v.title}</h3>
+            <p class="mt-2 text-sm text-navy-600">{v.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Credentials -->
+  <section class="container-page py-16">
+    <div class="grid gap-8 rounded-3xl bg-navy-900 p-8 text-white sm:grid-cols-3 sm:p-12">
+      <div>
+        <Icon name="shield" class="h-8 w-8 text-canyon-400" />
+        <h3 class="mt-3 font-bold">Licensed Utah carrier</h3>
+        <p class="mt-2 text-sm text-navy-200">Utah Motor Carrier #{BUSINESS.license}, fully insured on every move.</p>
+      </div>
+      <div>
+        <Icon name="map-pin" class="h-8 w-8 text-canyon-400" />
+        <h3 class="mt-3 font-bold">Based in Orem, UT</h3>
+        <p class="mt-2 text-sm text-navy-200">{BUSINESS.address.street}, {BUSINESS.address.city}, {BUSINESS.address.region} {BUSINESS.address.postalCode}</p>
+      </div>
+      <div>
+        <Icon name="star" class="h-8 w-8 text-canyon-400" />
+        <h3 class="mt-3 font-bold">Rated {BUSINESS.rating.value} stars</h3>
+        <p class="mt-2 text-sm text-navy-200">{BUSINESS.rating.count}+ Google reviews from happy Utah customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand />
+</BaseLayout>

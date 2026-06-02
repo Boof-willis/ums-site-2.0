@@ -1,0 +1,229 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Icon from "@/components/Icon.astro";
+import Stars from "@/components/Stars.astro";
+import Faq from "@/components/Faq.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import QuoteForm from "@/components/QuoteForm.astro";
+import { BUSINESS, SERVICES, LOCATIONS } from "@/consts";
+import { homeFaqs } from "@/data/faqs";
+import { faqNode, serviceNode } from "@/lib/schema";
+
+const title =
+  "Utah's Trusted Local & Long-Distance Movers | Utah's Moving and Storage";
+const description =
+  "Family-owned Utah movers rated 4.9 stars. Local moves from $140/hr, long-distance, commercial & packing across the Wasatch Front. Get a free, no-obligation quote.";
+
+const schema = [
+  faqNode(homeFaqs),
+  ...SERVICES.map((s) =>
+    serviceNode({ name: s.title, url: `/services/${s.key}/`, description: s.summary })
+  ),
+];
+
+const stats = [
+  { value: "4.9★", label: "Google rating" },
+  { value: "10,000+", label: "Moves completed" },
+  { value: `${BUSINESS.foundingYear}`, label: "Family-owned since" },
+  { value: "$140/hr", label: "Local moves from" },
+];
+
+const steps = [
+  { icon: "quote", title: "Get your free quote", text: "Tell us about your move by phone or online. We give a clear, no-surprises estimate." },
+  { icon: "calendar", title: "Book your date", text: "Lock in a date that works for you. We confirm your crew, truck, and arrival window." },
+  { icon: "truck", title: "We handle the heavy lifting", text: "Our trained crew protects, loads, transports, and reassembles — start to finish." },
+  { icon: "check-circle", title: "Settle into your new place", text: "We place everything where it belongs. You relax. No hidden fees at the end." },
+];
+
+const reasons = [
+  { icon: "users", title: "Our own trained crew", text: "No day-labor or temps. Every mover is trained to crew-leader level before they touch your belongings." },
+  { icon: "shield", title: "Licensed & insured", text: `Fully licensed Utah motor carrier (#${BUSINESS.license}) with carrier liability on every move.` },
+  { icon: "check-circle", title: "No hidden fees", text: "The quote we give you is the price you pay. We don't pass weather or traffic delays on to you." },
+  { icon: "star", title: "Rated 4.9 stars", text: `${BUSINESS.rating.count}+ Google reviews from Utah families and businesses who'd hire us again.` },
+];
+
+const testimonials = [
+  { name: "Megan R.", city: "Orem, UT", text: "The crew was on time, careful, and genuinely kind. They wrapped everything and reassembled our beds. Best moving experience we've had." },
+  { name: "David K.", city: "Lehi, UT", text: "Quote was exactly what I paid — no surprise fees. They moved a 4-bedroom home faster than I expected and nothing was damaged." },
+  { name: "Sarah T.", city: "Salt Lake City, UT", text: "Professional from the first call. They handled our piano and a gun safe without a scratch. Highly recommend Utah's Moving and Storage." },
+];
+---
+
+<BaseLayout title={title} description={description} path="/" schema={schema} isFAQ>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-navy-950">
+    <!-- Hero background photo + legibility overlay -->
+    <div class="pointer-events-none absolute inset-0">
+      <img
+        src="/images/hero-moving-truck.webp"
+        srcset="/images/hero-moving-truck-800.webp 800w, /images/hero-moving-truck.webp 1200w"
+        sizes="100vw"
+        alt="Utah's Moving and Storage moving truck parked outside a Utah home with mountain views"
+        width="1200"
+        height="800"
+        fetchpriority="high"
+        decoding="async"
+        class="h-full w-full object-cover object-center"
+      />
+      <div class="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-950/92 to-navy-900/70"></div>
+      <div class="absolute -right-32 -top-32 h-[32rem] w-[32rem] rounded-full bg-canyon-500/20 blur-3xl"></div>
+    </div>
+    <div class="container-page relative grid gap-12 py-16 lg:grid-cols-2 lg:items-center lg:py-24">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-sm text-navy-100">
+          <Stars class="h-4 w-4" />
+          <span><strong class="text-white">{BUSINESS.rating.value}</strong> from {BUSINESS.rating.count}+ reviews</span>
+        </div>
+        <h1 class="mt-5 text-4xl font-bold leading-[1.05] text-white sm:text-5xl lg:text-6xl">
+          Utah's trusted local & long-distance movers
+        </h1>
+        <p class="mt-5 max-w-xl text-lg leading-relaxed text-navy-200">
+          Family-owned and fully licensed, Utah's Moving and Storage takes the dread
+          out of moving day. Careful crews, honest pricing from <strong class="text-white">$140/hour</strong>,
+          and no hidden fees — across the entire Wasatch Front.
+        </p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="/quote/" class="btn-primary">Get a Free Quote <Icon name="arrow" class="h-5 w-5" /></a>
+          <a href={BUSINESS.phoneHref} class="btn-ghost-light">
+            <Icon name="phone" class="h-5 w-5" /> {BUSINESS.phone}
+          </a>
+        </div>
+        <ul class="mt-8 grid grid-cols-2 gap-3 text-sm text-navy-200 sm:flex sm:flex-wrap sm:gap-x-6">
+          {["Free virtual walkthrough", "No hidden fees", "Licensed & insured", "Our own trained crew"].map((p) => (
+            <li class="flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-canyon-400" />{p}</li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Quote card -->
+      <div class="rounded-2xl bg-white p-6 shadow-2xl sm:p-8">
+        <h2 class="text-xl font-bold text-navy-900">Get your free quote</h2>
+        <p class="mt-1 text-sm text-navy-500">Fast, no-obligation. Reply within a few business hours.</p>
+        <div class="mt-5">
+          <QuoteForm compact source="homepage-hero" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="relative border-t border-white/10">
+      <div class="container-page grid grid-cols-2 gap-6 py-8 sm:grid-cols-4">
+        {stats.map((s) => (
+          <div class="text-center">
+            <div class="font-display text-2xl font-bold text-white sm:text-3xl">{s.value}</div>
+            <div class="mt-1 text-sm text-navy-300">{s.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="container-page py-20">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="font-semibold uppercase tracking-wider text-canyon-600">What we do</p>
+      <h2 class="mt-2 text-3xl font-bold sm:text-4xl">Moving services for every kind of move</h2>
+      <p class="mt-4 text-lg text-navy-600">From a single piano to a 10,000 sq ft home or your entire office — we tailor every move to exactly what you need.</p>
+    </div>
+    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {SERVICES.map((s) => (
+        <a href={`/services/${s.key}/`} class="group rounded-2xl border border-navy-100 bg-white p-6 transition-all hover:-translate-y-1 hover:border-canyon-200 hover:shadow-xl">
+          <span class="grid h-12 w-12 place-items-center rounded-xl bg-navy-900 text-canyon-400 transition-colors group-hover:bg-canyon-500 group-hover:text-white">
+            <Icon name={s.icon} class="h-6 w-6" />
+          </span>
+          <h3 class="mt-4 text-lg font-bold">{s.title}</h3>
+          <p class="mt-2 text-sm text-navy-600">{s.short}</p>
+          <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-canyon-700">
+            Learn more <Icon name="arrow" class="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Why choose us -->
+  <section class="bg-sand-50 py-20">
+    <div class="container-page">
+      <div class="mx-auto max-w-2xl text-center">
+        <p class="font-semibold uppercase tracking-wider text-canyon-600">Why Utah's Moving and Storage</p>
+        <h2 class="mt-2 text-3xl font-bold sm:text-4xl">The neighborly alternative to big national chains</h2>
+        <p class="mt-4 text-lg text-navy-600">Owner Derek Martin started this company to fix what's broken in the moving industry: untrained crews, bait-and-switch pricing, and no-shows. Here's the difference.</p>
+      </div>
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {reasons.map((r) => (
+          <div class="rounded-2xl bg-white p-6 shadow-sm">
+            <span class="grid h-11 w-11 place-items-center rounded-xl bg-canyon-50 text-canyon-600">
+              <Icon name={r.icon} class="h-6 w-6" />
+            </span>
+            <h3 class="mt-4 text-lg font-bold">{r.title}</h3>
+            <p class="mt-2 text-sm text-navy-600">{r.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="container-page py-20">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="font-semibold uppercase tracking-wider text-canyon-600">How it works</p>
+      <h2 class="mt-2 text-3xl font-bold sm:text-4xl">Your move in four simple steps</h2>
+    </div>
+    <ol class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      {steps.map((s, i) => (
+        <li class="relative">
+          <span class="font-display text-5xl font-bold text-sand-200">{String(i + 1).padStart(2, "0")}</span>
+          <span class="mt-2 grid h-11 w-11 place-items-center rounded-xl bg-navy-900 text-canyon-400">
+            <Icon name={s.icon} class="h-6 w-6" />
+          </span>
+          <h3 class="mt-4 text-lg font-bold">{s.title}</h3>
+          <p class="mt-2 text-sm text-navy-600">{s.text}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-navy-950 py-20">
+    <div class="container-page">
+      <div class="mx-auto max-w-2xl text-center">
+        <Stars class="mx-auto h-6 w-6" />
+        <h2 class="mt-3 text-3xl font-bold text-white sm:text-4xl">Loved by Utah families & businesses</h2>
+        <p class="mt-4 text-lg text-navy-200">Rated {BUSINESS.rating.value} stars across {BUSINESS.rating.count}+ Google reviews.</p>
+      </div>
+      <div class="mt-12 grid gap-6 lg:grid-cols-3">
+        {testimonials.map((t) => (
+          <figure class="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10">
+            <Stars class="h-4 w-4" />
+            <blockquote class="mt-4 text-navy-100">"{t.text}"</blockquote>
+            <figcaption class="mt-4 text-sm font-semibold text-white">{t.name} <span class="font-normal text-navy-300">· {t.city}</span></figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Service areas -->
+  <section class="container-page py-20">
+    <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+      <div>
+        <p class="font-semibold uppercase tracking-wider text-canyon-600">Service areas</p>
+        <h2 class="mt-2 text-3xl font-bold sm:text-4xl">Proudly serving the Wasatch Front</h2>
+        <p class="mt-4 text-lg text-navy-600">Based in Orem, we move families and businesses throughout Utah County, Salt Lake County, and beyond — plus long-distance moves in and out of the state.</p>
+        <a href="/locations/" class="btn-secondary mt-6">See all service areas <Icon name="arrow" class="h-4 w-4" /></a>
+      </div>
+      <ul class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {LOCATIONS.map((l) => (
+          <li>
+            <a href={`/locations/${l.slug}/`} class="flex items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-3 text-sm font-medium text-navy-800 transition-colors hover:border-canyon-200 hover:text-canyon-700">
+              <Icon name="map-pin" class="h-4 w-4 text-canyon-500" />{l.city}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <Faq items={homeFaqs} />
+  <CtaBand />
+</BaseLayout>

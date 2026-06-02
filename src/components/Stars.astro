@@ -1,0 +1,10 @@
+---
+import Icon from "@/components/Icon.astro";
+interface Props { class?: string; }
+const { class: className = "h-5 w-5" } = Astro.props;
+---
+<div class="flex items-center gap-0.5 text-canyon-400" aria-label="5 out of 5 stars">
+  {Array.from({ length: 5 }).map(() => (
+    <Icon name="star" class={`${className} fill-current`} />
+  ))}
+</div>

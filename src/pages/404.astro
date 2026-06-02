@@ -1,0 +1,23 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { SERVICES } from "@/consts";
+---
+<BaseLayout
+  title="Page Not Found | Utah's Moving and Storage"
+  description="The page you're looking for couldn't be found."
+  path="/404/"
+  noindex
+>
+  <section class="container-page flex min-h-[60vh] flex-col items-center justify-center py-20 text-center">
+    <p class="font-display text-6xl font-bold text-sand-200">404</p>
+    <h1 class="mt-4 text-3xl font-bold sm:text-4xl">We couldn't find that page</h1>
+    <p class="mt-4 max-w-lg text-lg text-navy-600">It may have moved. Try one of these instead:</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="/" class="btn-primary">Home</a>
+      <a href="/quote/" class="btn-secondary">Free Quote</a>
+      {SERVICES.map((s) => (
+        <a href={`/services/${s.key}/`} class="btn-secondary">{s.navLabel}</a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

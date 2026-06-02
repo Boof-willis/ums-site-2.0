@@ -1,0 +1,113 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import Icon from "@/components/Icon.astro";
+import Faq from "@/components/Faq.astro";
+import CtaBand from "@/components/CtaBand.astro";
+import QuoteForm from "@/components/QuoteForm.astro";
+import { LOCATIONS, SERVICES, BUSINESS } from "@/consts";
+import { serviceNode, faqNode, breadcrumbNode } from "@/lib/schema";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("locations");
+  return LOCATIONS.map((loc) => {
+    const entry = entries.find((e) => e.id === loc.slug);
+    return { params: { slug: loc.slug }, props: { loc, entry } };
+  });
+}
+
+const { loc, entry } = Astro.props;
+const path = `/locations/${loc.slug}/`;
+const { Content } = entry ? await render(entry) : { Content: null };
+
+const crumbs = [
+  { name: "Home", url: "/" },
+  { name: "Locations", url: "/locations/" },
+  { name: loc.city, url: path },
+];
+
+// Nearby cities (same county first) for internal linking.
+const nearby = LOCATIONS.filter((l) => l.slug !== loc.slug)
+  .sort((a) => (a.county === loc.county ? -1 : 1))
+  .slice(0, 5);
+
+const cityFaqs = [
+  { q: `How much does a local move cost in ${loc.city}, Utah?`, a: `Local moves in ${loc.city} start at <strong>$140/hour</strong> for two movers and a fully equipped truck, with a 3-hour minimum and $40/hour per additional mover. You'll get a clear, no-obligation quote up front with no hidden fees.` },
+  { q: `Do you offer same-day or short-notice moves in ${loc.city}?`, a: `We accommodate short-notice and last-minute moves in ${loc.city} whenever our schedule allows. Call us at ${BUSINESS.phone} and we'll do our best to fit you in.` },
+  { q: `What moving services do you offer in ${loc.city}?`, a: `In ${loc.city} we provide residential, long-distance, and commercial moving, plus professional packing services and supplies. We move everything from single specialty items to full homes and offices.` },
+  { q: `Are you licensed to move in ${loc.city}?`, a: `Yes. Utah's Moving and Storage is a fully licensed Utah motor carrier (#${BUSINESS.license}) and insured on every move in ${loc.city} and throughout the Wasatch Front.` },
+];
+
+const schema = [
+  serviceNode({
+    name: `Moving services in ${loc.city}, UT`,
+    url: path,
+    description: `Residential, long-distance, and commercial moving plus packing services in ${loc.city}, Utah from Utah's Moving and Storage.`,
+    serviceType: "Moving company",
+  }),
+  faqNode(cityFaqs),
+  breadcrumbNode(crumbs),
+];
+const seoTitle = `${loc.city} Moving Company | Local Movers in ${loc.city}, UT`;
+const seoDesc = entry?.data.description ?? `Trusted local movers in ${loc.city}, Utah. Residential, long-distance & commercial moving from $140/hr. Licensed, insured & rated 4.9 stars.`;
+---
+<BaseLayout title={seoTitle} description={seoDesc} path={path} schema={schema} isFAQ>
+  <section class="bg-navy-950">
+    <Breadcrumbs items={crumbs} dark />
+    <div class="container-page grid gap-12 pb-16 pt-6 lg:grid-cols-[1.3fr_1fr] lg:items-start">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1.5 text-sm text-navy-100">
+          <Icon name="map-pin" class="h-4 w-4 text-canyon-400" /> Serving {loc.city} &amp; {loc.county}
+        </div>
+        <h1 class="mt-5 text-3xl font-bold text-white sm:text-4xl lg:text-5xl">{loc.city}'s trusted moving company</h1>
+        <p class="mt-5 max-w-2xl text-lg text-navy-200">Utah's Moving and Storage provides careful, fully licensed residential, long-distance, and commercial moving in {loc.city}, Utah — local moves from <strong class="text-white">$140/hour</strong> with no hidden fees.</p>
+        <div class="mt-7 flex flex-col gap-3 sm:flex-row">
+          <a href="/quote/" class="btn-primary">Get a Free {loc.city} Quote <Icon name="arrow" class="h-5 w-5" /></a>
+          <a href={BUSINESS.phoneHref} class="btn-ghost-light"><Icon name="phone" class="h-5 w-5" /> {BUSINESS.phone}</a>
+        </div>
+      </div>
+      <div class="rounded-2xl bg-white p-6 shadow-2xl">
+        <h2 class="text-lg font-bold">Free quote in {loc.city}</h2>
+        <div class="mt-4"><QuoteForm compact source={`location-${loc.slug}`} /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services in city -->
+  <section class="container-page py-14">
+    <h2 class="text-2xl font-bold">Our moving services in {loc.city}</h2>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      {SERVICES.map((s) => (
+        <a href={`/services/${s.key}/`} class="group rounded-2xl border border-navy-100 bg-white p-5 transition-all hover:-translate-y-1 hover:border-canyon-200 hover:shadow-lg">
+          <span class="grid h-10 w-10 place-items-center rounded-lg bg-navy-900 text-canyon-400 group-hover:bg-canyon-500 group-hover:text-white"><Icon name={s.icon} class="h-5 w-5" /></span>
+          <h3 class="mt-3 font-bold">{s.navLabel}</h3>
+          <p class="mt-1 text-sm text-navy-600">{s.short}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Local content -->
+  {Content && (
+    <section class="container-page pb-8">
+      <div class="prose-ums mx-auto max-w-3xl"><Content /></div>
+    </section>
+  )}
+
+  <Faq items={cityFaqs} heading={`Moving in ${loc.city}: FAQs`} />
+
+  <!-- Nearby -->
+  <section class="container-page py-12">
+    <h2 class="text-xl font-bold">Nearby areas we serve</h2>
+    <div class="mt-5 flex flex-wrap gap-3">
+      {nearby.map((n) => (
+        <a href={`/locations/${n.slug}/`} class="inline-flex items-center gap-2 rounded-xl border border-navy-100 bg-white px-4 py-2.5 text-sm font-medium text-navy-800 hover:border-canyon-200 hover:text-canyon-700">
+          <Icon name="map-pin" class="h-4 w-4 text-canyon-500" /> {n.city}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <CtaBand heading={`Ready to move in ${loc.city}?`} />
+</BaseLayout>
