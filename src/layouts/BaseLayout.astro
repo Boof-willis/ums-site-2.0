@@ -118,13 +118,29 @@ const jsonld = graph([
 
     <!-- Progressive enhancement for all lead-capture forms (.quote-form) -->
     <script>
+      const HP_FIELDS = ["company_website", "nickname", "fax"];
+      const val = (form: HTMLFormElement, name: string) =>
+        (form.elements.namedItem(name) as HTMLInputElement | null)?.value ?? "";
+
       document.querySelectorAll<HTMLFormElement>(".quote-form").forEach((form) => {
+        // Stamp proof-of-JS + render time (read on submit to compute fill time).
+        const tokenEl = form.elements.namedItem("form_token") as HTMLInputElement | null;
+        if (tokenEl) tokenEl.value = "ums-ok";
+        const renderedAt = Date.now();
+
         form.addEventListener("submit", async (e) => {
           e.preventDefault();
           const status = form.querySelector<HTMLElement>(".form-status");
           const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
           const original = btn?.textContent ?? "Submit";
-          if ((form.elements.namedItem("company_website") as HTMLInputElement)?.value) return;
+
+          // Client-side honeypot short-circuit (bots that fill any decoy field).
+          if (HP_FIELDS.some((n) => val(form, n))) return;
+
+          // Record how long the form took to fill (server rejects instant bots).
+          const elapsedEl = form.elements.namedItem("elapsed_ms") as HTMLInputElement | null;
+          if (elapsedEl) elapsedEl.value = String(Date.now() - renderedAt);
+
           if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
           if (status) { status.textContent = ""; status.className = "form-status text-sm"; }
           try {

@@ -44,7 +44,13 @@ const perks = [
       <h2 class="text-2xl font-bold">Apply now</h2>
       <p class="mt-2 text-navy-600">Tell us a bit about yourself and we'll be in touch.</p>
       <form class="quote-form mt-6 space-y-4" method="POST" action={LEAD_ENDPOINT} data-source="careers">
-        <div class="hidden" aria-hidden="true"><label>Leave empty<input type="text" name="company_website" tabindex="-1" /></label></div>
+        <div class="hp-wrap" aria-hidden="true">
+          <label>Company website<input type="text" name="company_website" tabindex="-1" autocomplete="off" /></label>
+          <label>Nickname<input type="text" name="nickname" tabindex="-1" autocomplete="off" /></label>
+          <label>Fax<input type="text" name="fax" tabindex="-1" autocomplete="off" /></label>
+        </div>
+        <input type="hidden" name="form_token" value="" />
+        <input type="hidden" name="elapsed_ms" value="" />
         <input type="hidden" name="source" value="careers-application" />
         <div class="grid gap-4 sm:grid-cols-2">
           <div>

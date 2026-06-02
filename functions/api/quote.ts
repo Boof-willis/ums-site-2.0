@@ -33,8 +33,26 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     return json({ ok: false, error: "Invalid request body" }, 400);
   }
 
-  // Honeypot: silently accept (looks successful to the bot, but we drop it).
-  if (body.company_website) return json({ ok: true });
+  // ── Bot filtering ───────────────────────────────────────────────────────
+  // Any trip => respond 200 OK so the bot believes it succeeded, but DO NOT
+  // forward to GoHighLevel. Layered so one signal failing isn't fatal to humans.
+  const botReason = ((): string | null => {
+    // 1. Honeypots — hidden fields only bots fill.
+    if (body.company_website || body.nickname || body.fax) return "honeypot";
+    // 2. Proof-of-JS token — set by the form's script; absent for headless
+    //    bots that POST straight to this endpoint without running the page JS.
+    if (body.form_token !== "ums-ok") return "missing-js-token";
+    // 3. Time trap — humans take seconds to fill a form; instant submits are bots.
+    const elapsed = parseInt(String(body.elapsed_ms ?? ""), 10);
+    if (Number.isFinite(elapsed) && elapsed > 0 && elapsed < 2500) return "too-fast";
+    return null;
+  })();
+  if (botReason) {
+    console.warn("Bot submission blocked (not forwarded):", botReason, {
+      source: body.source,
+    });
+    return json({ ok: true, bot: true });
+  }
 
   // Basic validation.
   const name = (body.name || "").trim();

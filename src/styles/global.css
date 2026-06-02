@@ -105,6 +105,17 @@
            hover:bg-white/10 hover:border-white/60;
   }
 
+  /* Honeypot wrapper — kept in the DOM and off-screen (not display:none, which
+     savvier bots skip) so bots fill it while humans never see it. */
+  .hp-wrap {
+    position: absolute !important;
+    left: -9999px !important;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
   /* Multi-step quote form */
   .qf-input {
     @apply w-full rounded-lg border border-navy-200 px-3.5 py-2.5 text-navy-900
