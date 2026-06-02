@@ -30,7 +30,7 @@ Don't be afraid to ask for help, especially from family. It can be hard to seek 
 
 ## 6. Embrace Your Emotions
 
-A big move can bring on a whirlwind of emotions. Don't try to brush them away. It's normal. It's OK. Change is hard, but change is good. Help your loved one know that they are not alone and that their emotions are valid. Try to help them look at their new move as an opportunity for a fresh start—a chance to make something all their own and add their charm to it.
+A big move can bring on a whirlwind of emotions. Don't try to brush them away. It's normal. It's OK. Change is hard, but change is good. Help your loved one know that they are not alone and that their emotions are valid. Try to help them look at their new move as an opportunity for a fresh start, a chance to make something all their own and add their charm to it.
 
 ## 7. Settle into the New Home
 

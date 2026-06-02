@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Single source of truth for business data (NAP), navigation, services & areas.
 // Used by SEO meta, JSON-LD schema, header, footer, and page content.
-// Keep this accurate — schema + GMB + AI answers all key off these values.
+// Keep this accurate, schema + GMB + AI answers all key off these values.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const SITE_URL = "https://utahsmovingandstorage.com";

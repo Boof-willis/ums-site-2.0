@@ -26,7 +26,7 @@ Once you've given the place a good cleaning, it's time to get your home ready fo
 
 **3. Unload Boxes in the Correct Rooms**
 
-When it’s time to start unloading, save yourself time and energy by placing the boxes in the right rooms. This makes unpacking easier when all you have to do is move them a few feet from where they were unloaded. It also helps with organization — you won’t end up with miscellaneous items strewn around the house or in odd places when everything can be easily categorized and put away in its rightful room.
+When it’s time to start unloading, save yourself time and energy by placing the boxes in the right rooms. This makes unpacking easier when all you have to do is move them a few feet from where they were unloaded. It also helps with organization, you won’t end up with miscellaneous items strewn around the house or in odd places when everything can be easily categorized and put away in its rightful room.
 
 If you have help moving, make sure they know which room each box belongs in before they start unloading so everyone is on the same page. Familiarize yourself with the floor plan of your new home and make sure you know where things need to go as soon as they come off the truck. This will save a lot of time when trying to unload everything quickly. This will also help reduce confusion and prevent mistakes from being made while moving in.
 
@@ -34,7 +34,7 @@ If you have help moving, make sure they know which room each box belongs in befo
 
 The first step is to clearly label each box. In large lettering, put the room that the box belongs in. This will help ensure that the box is put into the correct room in the new location right from the start. Then in smaller letters, write a list of the contents directly on the box. Taking it a step further, number the boxes and then create a numbered list either on paper or on a smartphone so that you know exactly what box-specific items are in. This will help you avoid endless searching for specific items as you are unpacking.
 
-Secondly, plan ahead of time how you are going to unpack. Start with the essentials – kitchen and toiletries are often at the top of the list. If you have children, focus on unpacking their bedrooms after the essentials. This is a huge help because giving the kids a comfortable and safe space to be occupied will give the adults the freedom to unpack without additionally having to worry about keeping them occupied. Pet supplies also fall into this category; unpacking the pet’s essential items (toys, crates, food, etc.) will help them settle into the new space quickly.
+Secondly, plan ahead of time how you are going to unpack. Start with the essentials - kitchen and toiletries are often at the top of the list. If you have children, focus on unpacking their bedrooms after the essentials. This is a huge help because giving the kids a comfortable and safe space to be occupied will give the adults the freedom to unpack without additionally having to worry about keeping them occupied. Pet supplies also fall into this category; unpacking the pet’s essential items (toys, crates, food, etc.) will help them settle into the new space quickly.
 
 Finally, no one wants to cook on moving day, and unpacking on an empty stomach sounds like a nightmare, so have food delivered. Before moving day, look up local restaurants and fast-food places so you can arrange for food to be delivered. Going out to eat instead of having it delivered is also a nice break from the stress of unpacking and gives everyone some time to relax and refuel.
 

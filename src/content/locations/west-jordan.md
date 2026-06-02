@@ -23,7 +23,7 @@ Whether you need packing only, packing and loading your rental truck, or a full-
 
 We don't follow the practice of other professional moving services of transferring goods between trucks, with or without warning the client. Instead, your belongings are with our team from mile one to the doorstep of your new home.
 
-Because our team consists of local staff who live in your community, they treat every customer like a neighbor and friend—and our many 5-star reviews prove it! And best of all, since our services are licensed and insured, you don't need to worry about any scuffs on furniture or walls or loss or breakage of items. In the unlikely event that anything is damaged during the move, you’re covered by our West Jordan professional moving company.
+Because our team consists of local staff who live in your community, they treat every customer like a neighbor and friend, and our many 5-star reviews prove it! And best of all, since our services are licensed and insured, you don't need to worry about any scuffs on furniture or walls or loss or breakage of items. In the unlikely event that anything is damaged during the move, you’re covered by our West Jordan professional moving company.
 
 ## Packing and Moving Services for West Jordan
 
@@ -39,7 +39,7 @@ Whether you need packing help for moving to or from West Jordan or full-service 
 
 We understand the sensitivity involved in a commercial move. Years, perhaps decades' worth of important papers and materials may be involved. Breakable IT equipment must be organized and protected. And everything must be properly labeled so that you don’t spend weeks getting back on track at your new location.
 
-Prior to scheduling your West Jordan commercial move, we offer free walkthroughs and estimates so that you know exactly what to expect on a moving day. We’ll be able to tell you exactly how much time it will take to pack and move your office so that you can minimize downtime. And we show up on time, ready with all the packing materials and expertise you need. Rest easy—Utah’s Moving and Storage is on the case!
+Prior to scheduling your West Jordan commercial move, we offer free walkthroughs and estimates so that you know exactly what to expect on a moving day. We’ll be able to tell you exactly how much time it will take to pack and move your office so that you can minimize downtime. And we show up on time, ready with all the packing materials and expertise you need. Rest easy, Utah’s Moving and Storage is on the case!
 
 ## West Jordan Cross Country Moving Company
 
@@ -53,7 +53,7 @@ When it comes to selecting a long-distance moving company to get you in or out o
 
 ## Living in West Jordan, Utah
 
-West Jordan, Utah, is a rapidly growing city with a lot to offer. People love our excellent schools, low cost of living, and beautiful parks and trails. Families enjoy the diverse outdoor activities that are available year-round—especially the close proximity to Salt Lake City and world-class skiing and snowboarding destinations. Opportunities for hiking, camping, biking, and more are never far away in the warmer months.
+West Jordan, Utah, is a rapidly growing city with a lot to offer. People love our excellent schools, low cost of living, and beautiful parks and trails. Families enjoy the diverse outdoor activities that are available year-round, especially the close proximity to Salt Lake City and world-class skiing and snowboarding destinations. Opportunities for hiking, camping, biking, and more are never far away in the warmer months.
 
 The job market is robust, with a variety of employers offering competitive salaries, while the economy continues to grow with high median income levels.
 

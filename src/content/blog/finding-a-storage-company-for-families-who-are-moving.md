@@ -75,6 +75,6 @@ In either case, it will be most helpful if the items stored are move-ready, rath
 
 **● Is the storage facility secure?**
 
-Is the storage facility protected from the elements? If all your belongings are sealed in water-tight containers, it may not matter – but if you have art or furniture that could be damaged by moisture, look for a facility that offers indoor indoor solutions.
+Is the storage facility protected from the elements? If all your belongings are sealed in water-tight containers, it may not matter - but if you have art or furniture that could be damaged by moisture, look for a facility that offers indoor indoor solutions.
 
 *This is a crowdsourced article. Contributors' statements do not necessarily reflect the opinion of this website, other people, businesses, or other contributors.*

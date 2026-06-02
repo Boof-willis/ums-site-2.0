@@ -6,7 +6,7 @@ updatedDate: 2024-04-03
 category: "Moving Tips"
 ---
 
-If you're a last-minute, throw-everything-in-boxes type of mover, you may notice a pattern of broken items whenever you move to a new place. Sometimes, there's no harm in the "throw-it-in-a-box" method, but it's important not to implement this strategy for all your items — especially your most fragile and expensive ones, such as electronics.
+If you're a last-minute, throw-everything-in-boxes type of mover, you may notice a pattern of broken items whenever you move to a new place. Sometimes, there's no harm in the "throw-it-in-a-box" method, but it's important not to implement this strategy for all your items, especially your most fragile and expensive ones, such as electronics.
 
 Electronics require a little extra TLC when packing them for their voyage to their new desktop, living room, bedroom, or office. One drop by you, a hired helper, a friend, or a delivery person can mean a broken TV, computer, or game console. And guess what? A drop is inevitable during the hustle and bustle of moving. That's why it's important to pack these items securely so they'll be OK if someone accidentally drops them or they fall. Here are nine tips for packing electronics to help your long distance movers get everything safely to your destination and reduce your stress.
 

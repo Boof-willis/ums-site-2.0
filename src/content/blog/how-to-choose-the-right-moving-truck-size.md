@@ -49,7 +49,7 @@ Here are some general guidelines for each truck size:
 ### Medium Truck: 14-17 feet
 
 - Home with two bedrooms
-- 700 – 1,2000 sq. ft. space
+- 700 - 1,2000 sq. ft. space
 - 3,000- 4,500 pounds and/or 650-850 cubic feet if possessions
 - Ten or fewer pieces of furniture
 
@@ -58,7 +58,7 @@ Note: This is the most common size truck rented by DIY movers
 ### Large Truck: 20-24 feet
 
 - Three-Bedroom Home
-- 1,200 – 1,600 sq. ft. space
+- 1,200 - 1,600 sq. ft. space
 - 4500- 6500 pounds and/or 900-1400 cubic feet of possessions
 - 15 pieces of furniture or less
 - 150 moving boxes or less

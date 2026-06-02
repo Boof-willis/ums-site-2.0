@@ -4,7 +4,7 @@ description: "A professional moving crew’s checklist for a smooth, stress-free
 order: 5
 ---
 
-It's finally here—moving day. Ready or not, here it comes: you are relocating to a new home. Right now. Your day will be less stressful if you've prepared adequately during the months, weeks, and days leading up to this. But whether or not you've done that work, the time has come.
+It's finally here, moving day. Ready or not, here it comes: you are relocating to a new home. Right now. Your day will be less stressful if you've prepared adequately during the months, weeks, and days leading up to this. But whether or not you've done that work, the time has come.
 
 We've seen it all as a premier Utah professional moving company. Based on our experience and on-the-job observations, we’ve compiled a list of things that make moving day smoother and easier. If you are feeling anxious or overwhelmed as you face your relocation, our list should help alleviate some of your stress.
 
@@ -16,7 +16,7 @@ Do you love to sleep in? When others remind you that the early bird gets the wor
 
 If you are working with a residential moving company, they should have given you a time window for their arrival. However, before they show up, you'll want time to do some last-minute preparation. We'll get into those details later, but for now, know you will want enough time to prepare yourself and your home before work begins.
 
-If you've decided to tackle moving day yourself without furniture movers or other professional help, this will be a very long, exhausting process. That's even more true if you haven't finished your DIY packing. You'll need every minute of the day. In fact, you may feel like one day is not nearly enough to complete everything properly, much less pause to catch your breath or rest your back mid-day. Sleeping in is not an option for you, self-mover. Not only will you need to rise with the sun–or before it–you won't have a minute to spare. It's time to get up and hit the ground running.
+If you've decided to tackle moving day yourself without furniture movers or other professional help, this will be a very long, exhausting process. That's even more true if you haven't finished your DIY packing. You'll need every minute of the day. In fact, you may feel like one day is not nearly enough to complete everything properly, much less pause to catch your breath or rest your back mid-day. Sleeping in is not an option for you, self-mover. Not only will you need to rise with the sun-or before it-you won't have a minute to spare. It's time to get up and hit the ground running.
 
 ## Breakfast of Champions
 
@@ -70,7 +70,7 @@ If you are loading the truck yourself, you may not have these protective measure
 
 ## Supervise the Process
 
-Think of yourself as the project manager. If you work with trusted Utah packing and moving companies, they should require minimal supervision. Find a company that has been in the moving business for years and has a well-trained, professional staff—not just temp workers they recruit for the day or week. They should know how to care for your belongings and treat them respectfully. However, don't hesitate to check in on the process, ask questions, or request special handling for items of particular concern.
+Think of yourself as the project manager. If you work with trusted Utah packing and moving companies, they should require minimal supervision. Find a company that has been in the moving business for years and has a well-trained, professional staff, not just temp workers they recruit for the day or week. They should know how to care for your belongings and treat them respectfully. However, don't hesitate to check in on the process, ask questions, or request special handling for items of particular concern.
 
 This is your move; if you want something done a specific way, make the request. And if observing every part of the process makes you feel better, that's fine.
 
@@ -94,7 +94,7 @@ Do a final walkthrough of your house.
 
 Check every closet and cabinet to ensure you didn't miss anything. It's easy to miss a small box on a high shelf in a closet. You want to find that while you still have a chance to include it in your shipment.
 
-Check outside as well. Ensure sheds are empty, storage boxes have been packed and loaded—or emptied if they stay with the home—and outdoor furniture and decor items are on the truck.
+Check outside as well. Ensure sheds are empty, storage boxes have been packed and loaded, or emptied if they stay with the home, and outdoor furniture and decor items are on the truck.
 
 ## Confirm the Inventory
 

@@ -6,7 +6,7 @@ updatedDate: 2024-04-03
 category: "Moving Day Tips"
 ---
 
-After months of searching, you've finally found that dream home or dream job or dream location. Now it's time to start making plans to move, and you feel a little overwhelmed — that is entirely normal. Moving is a big deal, and there is so much to figure out in a short time. Try to focus on the positives.
+After months of searching, you've finally found that dream home or dream job or dream location. Now it's time to start making plans to move, and you feel a little overwhelmed, that is entirely normal. Moving is a big deal, and there is so much to figure out in a short time. Try to focus on the positives.
 
 You're embarking on a new adventure. That's exciting!
 

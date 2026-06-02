@@ -24,7 +24,7 @@ Fertilizers and weed killers are flammable and shouldn't be hot, particularly fo
 
 Transporting ammunition in the back of a moving truck is a big no-no. If ammo gets hot, it can cause an explosion and if someone is near, it can be fatal. It is definitely not worth the risk.
 
-If you must take ammunition with you, make sure to keep it in a cool vehicle. It’s also important that the shells stay away from the firearms for safety reasons—transport ammunition with extreme caution.
+If you must take ammunition with you, make sure to keep it in a cool vehicle. It’s also important that the shells stay away from the firearms for safety reasons, transport ammunition with extreme caution.
 
 ## 4. Lighter Fluid
 

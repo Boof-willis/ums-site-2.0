@@ -44,11 +44,11 @@ Don't hesitate to ask questions. An honest, trustworthy moving company will welc
 
 Are there any items in your home they won't pack? Is there any charge for special items? Most companies charge more for heavy or oversized pieces like pianos or pool tables. Unscrupulous movers will leave these items out of the quote and then spring them on you on move-day. When you have to be out of the house tomorrow, and there's already a truck parked in front of your house, those providers know you have little choice but to say yes. Be sure to point out oversized or unusual items during the pre-move survey. Ensure the moving company includes them in the quoted price.
 
-Look for movers that offer a la carte services so you can pay only for what you need. Packing, loading, driving, unloading–if there are parts of the move you want to tackle yourself, you shouldn't have to pay for them. Go ahead; march to the beat of your drum. Design the move that works for you and work with professional residential movers who will accommodate your plan.
+Look for movers that offer a la carte services so you can pay only for what you need. Packing, loading, driving, unloading-if there are parts of the move you want to tackle yourself, you shouldn't have to pay for them. Go ahead; march to the beat of your drum. Design the move that works for you and work with professional residential movers who will accommodate your plan.
 
 ## Find a New Place to Live (Two to Four Months)
 
-Perhaps searching for homes is your idea of a good time. You've spent years looking at photos and floor plans and know exactly what you want. Or maybe you stumbled into your current home because it was available and cheap. However you feel about buying or renting a new home, it’s time to start narrowing things down. Home searching is a checklist item you can–and should–start well before your move day.
+Perhaps searching for homes is your idea of a good time. You've spent years looking at photos and floor plans and know exactly what you want. Or maybe you stumbled into your current home because it was available and cheap. However you feel about buying or renting a new home, it’s time to start narrowing things down. Home searching is a checklist item you can-and should-start well before your move day.
 
 If you are preparing for a residential move, you must find a new residence. You can begin researching your new city as soon as you know where you are moving. Narrowing down potential destination cities makes a home search much more manageable. How you do that depends a great deal on personal preference, but here are some factors to consider:
 
@@ -170,7 +170,7 @@ You will want to address mail delivery. Sure, it seems like nothing but catalogs
 
 You can arrange mail forwarding at your local post office or fill out a form online. As a bonus, you may even receive discount offers and coupons for services and items you may need at your new address as part of your move. If you will have to make a dozen trips to the home improvement store anyway, saving a few dollars helps take some of the sting out of all those lost Sunday afternoons.
 
-Consider an interim forwarding address if you will be in transit for more than a week or two. Have the post office deliver everything to a friend or family member who can keep an eye out for surprise checks–Yay!--or forgotten bills–Boo! Or use a temporary mailbox in your new location.
+Consider an interim forwarding address if you will be in transit for more than a week or two. Have the post office deliver everything to a friend or family member who can keep an eye out for surprise checks-Yay!--or forgotten bills-Boo! Or use a temporary mailbox in your new location.
 
 You'll also want to change your address with anyone who regularly sends you mail. While you should set up mail forwarding with the postal service, the service isn't always reliable, and the timeframe for forwarding is limited. Given that, you want to capture as many of the senders as possible and notify them directly.
 

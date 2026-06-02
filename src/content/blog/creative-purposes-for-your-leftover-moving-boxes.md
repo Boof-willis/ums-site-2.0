@@ -40,7 +40,7 @@ This could be a fun project for the sweet little girls in your life. It will be 
 
 ## 8. Drawer Dividers
 
-Cardboard makes great drawer dividers to organize your junk drawer or separate small items—boxes used for separating and protecting dishware work best. Your DIY cardboard separators will also be great for organizing small office items on your desk.
+Cardboard makes great drawer dividers to organize your junk drawer or separate small items, boxes used for separating and protecting dishware work best. Your DIY cardboard separators will also be great for organizing small office items on your desk.
 
 ## 9. Homemade Decorative Letters
 

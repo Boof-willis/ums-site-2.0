@@ -14,7 +14,7 @@ export const ID = {
 const abs = (path: string) =>
   path.startsWith("http") ? path : `${SITE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
 
-/** The canonical business node — emitted on every page. */
+/** The canonical business node, emitted on every page. */
 export function businessNode() {
   return {
     "@type": ["MovingCompany", "LocalBusiness"],

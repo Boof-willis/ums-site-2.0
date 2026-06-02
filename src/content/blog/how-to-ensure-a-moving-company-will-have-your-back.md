@@ -20,7 +20,7 @@ Call some of the top contenders and ask them about their estimating, scheduling,
 
 ## 3. Ask the Right Questions
 
-Hiring a moving company is a big deal. You're using your hard-earned money to entrust strangers with your belongings – that can be scary. But just like you would ask questions in a job interview to hire someone, you should ask some fundamental questions before hiring your moving company. Here are some examples:
+Hiring a moving company is a big deal. You're using your hard-earned money to entrust strangers with your belongings - that can be scary. But just like you would ask questions in a job interview to hire someone, you should ask some fundamental questions before hiring your moving company. Here are some examples:
 
 - Do you work as a broker and hire subcontractors?
 - Are you adequately licensed?

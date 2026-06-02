@@ -19,13 +19,13 @@ When you choose Utah’s Moving and Storage Company, you can be sure that your m
 
 Our professional moving company team in Saratoga Springs is well-trained and clean-cut. Each member undergoes regular drug testing to ensure they are ready to handle anything your move can throw at them. We don’t hire temps. Rather, our movers tend to stay with us for the “long haul” because they truly enjoy their work.
 
-Our furniture movers are trained in disassembling and reassembling unwieldy furniture. Try this yourself, and you may wind up with scraped floors or busted doorways, not to mention damaged furniture—definitely not what you need when you’re trying to move on to a new location.
+Our furniture movers are trained in disassembling and reassembling unwieldy furniture. Try this yourself, and you may wind up with scraped floors or busted doorways, not to mention damaged furniture, definitely not what you need when you’re trying to move on to a new location.
 
 ## Packing Help for Moving To/From Saratoga Springs
 
 Our packing services are designed to save you time and take the burden of moving off your shoulders with quick, efficient, and professional packing. Our team is trained in safely wrapping delicate items and making sure odd-shaped objects fit securely into boxes for transit. We bring along all the necessary materials to ensure everything is secure during transport, including padding, bubble wrap, shrink wrap, tape, and of course, boxes of all sizes. Anything we pack is insured for breakage or damage that occurs during our packing services so that you're protected. Remember that this is not the case if you opt to pack for yourself.
 
-Moving companies that pack for you are worth their weight in gold—but don’t worry…our services are not only comprehensive, but they’re also affordable too. We offer some of the most reasonable rates for packing help if you are moving in or out of Saratoga Springs.
+Moving companies that pack for you are worth their weight in gold, but don’t worry…our services are not only comprehensive, but they’re also affordable too. We offer some of the most reasonable rates for packing help if you are moving in or out of Saratoga Springs.
 
 ## Saratoga Springs Commercial Moves
 

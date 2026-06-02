@@ -66,4 +66,4 @@ It is also wise to refill your prescriptions before you move to ensure you don't
 
 Even if you hire a professional moving company to take the heaviest of burdens off during your move, you'll still have some work to do, and you may not be able to do it alone. Don't be afraid to ask for help from your friends and family. You should not have to endure the moving process without some help from some people you love and trust.
 
-There is no way around it — moving is a long and stressful process. However, the steps above can help to make it manageable and organized. Don't hesitate to ask your landlord for accommodations; always advocate for yourself. You are capable, and you've got this.
+There is no way around it, moving is a long and stressful process. However, the steps above can help to make it manageable and organized. Don't hesitate to ask your landlord for accommodations; always advocate for yourself. You are capable, and you've got this.

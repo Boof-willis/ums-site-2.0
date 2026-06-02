@@ -10,7 +10,7 @@ export interface Faq {
 export const homeFaqs: Faq[] = [
   {
     q: "How much does a local move cost in Utah?",
-    a: "Local moves with Utah's Moving and Storage start at <strong>$140 per hour</strong> for two movers and a fully equipped truck, with a 3-hour minimum and $40/hour for each additional mover. Most 2–3 bedroom local moves along the Wasatch Front fall between $560 and $1,400 depending on size, access, and specialty items. You'll receive a clear quote up front with no hidden fees.",
+    a: "Local moves with Utah's Moving and Storage start at <strong>$140 per hour</strong> for two movers and a fully equipped truck, with a 3-hour minimum and $40/hour for each additional mover. Most 2-3 bedroom local moves along the Wasatch Front fall between $560 and $1,400 depending on size, access, and specialty items. You'll receive a clear quote up front with no hidden fees.",
   },
   {
     q: "What areas does Utah's Moving and Storage serve?",
@@ -22,7 +22,7 @@ export const homeFaqs: Faq[] = [
   },
   {
     q: "How far in advance should I book my move?",
-    a: "Book 2–4 weeks ahead for the best date selection, especially for moves at month-end or during the busy summer season (May–September). We do accommodate short-notice and last-minute moves when our schedule allows, so it's always worth calling.",
+    a: "Book 2-4 weeks ahead for the best date selection, especially for moves at month-end or during the busy summer season (May-September). We do accommodate short-notice and last-minute moves when our schedule allows, so it's always worth calling.",
   },
   {
     q: "Do you offer packing services and supplies?",

@@ -6,7 +6,7 @@ updatedDate: 2024-05-30
 category: "Long-Distance Moving"
 ---
 
-A relocation for your business — how exciting and equally overwhelming! While it marks pivotal growth in your business and is surely something to celebrate, the heavy lifting to get there can be a bit tedious. One of the biggest concerns is keeping all your current customers regardless of the relocation. A crucial part of accomplishing this feat is spreading the word to make sure everyone knows where your new location will be. How will people know if you don't tell them? Here are five ways to announce your business relocation to the public.
+A relocation for your business, how exciting and equally overwhelming! While it marks pivotal growth in your business and is surely something to celebrate, the heavy lifting to get there can be a bit tedious. One of the biggest concerns is keeping all your current customers regardless of the relocation. A crucial part of accomplishing this feat is spreading the word to make sure everyone knows where your new location will be. How will people know if you don't tell them? Here are five ways to announce your business relocation to the public.
 
 ## 1. A Social Media Announcement
 

@@ -28,7 +28,7 @@ export const GUIDE_META: Record<string, GuideMeta> = {
     steps: [
       { name: "Book early", text: "Reserve a licensed long-distance mover with set travel costs well ahead of your date." },
       { name: "Inventory everything", text: "Create a detailed list for tracking and valuation coverage." },
-      { name: "Downsize first", text: "Don't pay to ship items you won't keep — sell or donate them." },
+      { name: "Downsize first", text: "Don't pay to ship items you won't keep, sell or donate them." },
       { name: "Protect essentials", text: "Keep documents, valuables, and a personal bag with you, not on the truck." },
       { name: "Confirm delivery", text: "Get pickup and delivery windows in writing." },
       { name: "Prepare the new place", text: "Arrange utilities and access before your shipment arrives." },
@@ -56,7 +56,7 @@ export const GUIDE_META: Record<string, GuideMeta> = {
       { name: "Finish packing non-essentials", text: "Box everything except what you'll need the last few days." },
       { name: "Pack an essentials box", text: "Clothes, toiletries, chargers, documents, and first-night basics." },
       { name: "Prep appliances", text: "Defrost and dry the fridge and freezer; disconnect and drain washers." },
-      { name: "Dispose of hazardous items", text: "Movers can't take propane, paint, or chemicals — handle these separately." },
+      { name: "Dispose of hazardous items", text: "Movers can't take propane, paint, or chemicals, handle these separately." },
       { name: "Set aside valuables", text: "Keep jewelry, documents, and irreplaceables with you." },
     ],
   },
@@ -66,7 +66,7 @@ export const GUIDE_META: Record<string, GuideMeta> = {
     howToName: "How to have a smooth moving day",
     steps: [
       { name: "Set your alarm", text: "Wake early so you're ready before the crew's arrival window." },
-      { name: "Eat breakfast", text: "Fuel up — your kitchen may already be packed, so plan ahead." },
+      { name: "Eat breakfast", text: "Fuel up, your kitchen may already be packed, so plan ahead." },
       { name: "Do a final walkthrough", text: "Check every room, closet, and cabinet for anything left behind." },
       { name: "Keep essentials with you", text: "Documents, medications, valuables, and a first-night box travel with you." },
       { name: "Brief the crew", text: "Point out fragile, specialty, and do-not-pack items before loading starts." },
@@ -75,10 +75,10 @@ export const GUIDE_META: Record<string, GuideMeta> = {
   },
   "packing-supplies-and-advice": {
     quickAnswer:
-      "Pack with quality supplies — sturdy small-to-XL boxes, bubble wrap, packing paper, and strong tape. Put heavy items in small boxes, wrap fragile items individually, and use specialty boxes for dishes, mirrors, and electronics. Label every box by room and contents so unpacking is simple.",
+      "Pack with quality supplies, sturdy small-to-XL boxes, bubble wrap, packing paper, and strong tape. Put heavy items in small boxes, wrap fragile items individually, and use specialty boxes for dishes, mirrors, and electronics. Label every box by room and contents so unpacking is simple.",
     howToName: "How to pack for a move",
     steps: [
-      { name: "Get quality supplies", text: "Sturdy boxes (S–XL), bubble wrap, packing paper, and strong tape." },
+      { name: "Get quality supplies", text: "Sturdy boxes (S-XL), bubble wrap, packing paper, and strong tape." },
       { name: "Heavy in small boxes", text: "Books and dense items go in small boxes; lighter items in large ones." },
       { name: "Wrap fragiles individually", text: "Use paper and bubble wrap, and fill gaps so nothing shifts." },
       { name: "Use specialty boxes", text: "Dish barrels, mirror boxes, and wardrobe boxes protect best." },

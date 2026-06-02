@@ -31,10 +31,10 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     seoTitle: "Residential Moving Company in Utah | Local Home Movers",
     seoDescription:
       "Full-service residential movers serving the Wasatch Front. Local home moves from $140/hour with a fully equipped truck, careful crews, and no hidden fees.",
-    lead: "Utah's Moving and Storage provides full-service residential moving across the Wasatch Front starting at $140/hour for two movers and a fully equipped truck, including blankets, disassembly, reassembly, and a free virtual walkthrough — with no hidden fees.",
+    lead: "Utah's Moving and Storage provides full-service residential moving across the Wasatch Front starting at $140/hour for two movers and a fully equipped truck, including blankets, disassembly, reassembly, and a free virtual walkthrough, with no hidden fees.",
     intro: [
       "Most people rank residential moving right up there with root canals on the discomfort index. There are supplies to procure, furniture to protect, and the nagging stress that the curio cabinet you inherited from your great-grandmother may not survive the trip.",
-      "We know there's a better way. We handle residential moves of every size — from a dorm room to a 10,000 square foot home — treating your belongings like our own so you can focus on the excitement of your new place instead of the dread of moving day.",
+      "We know there's a better way. We handle residential moves of every size, from a dorm room to a 10,000 square foot home, treating your belongings like our own so you can focus on the excitement of your new place instead of the dread of moving day.",
     ],
     highlights: [
       { icon: "truck", title: "Industry's largest trucks", text: "Fewer trips, faster moves, and everything arrives together." },
@@ -44,16 +44,16 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     ],
     sections: [
       {
-        h2: "Full-service or labor-only — your call",
+        h2: "Full-service or labor-only, your call",
         body: [
-          "If you have the time and patience (and the back and knees of a younger person), you can pack and provide your own truck — our crew will load, transport, and unload. Prefer to hand off the whole thing? We'll pack, load, move, and unload your entire home.",
+          "If you have the time and patience (and the back and knees of a younger person), you can pack and provide your own truck, our crew will load, transport, and unload. Prefer to hand off the whole thing? We'll pack, load, move, and unload your entire home.",
           "Professional-packing or self-packing, your truck or ours: our residential movers provide whatever level of service you need.",
         ],
       },
       {
         h2: "What's included in every local move",
         body: [
-          "Every local residential move includes two movers, the industry's largest moving truck, moving blankets for your furniture, disassembly and reassembly, plastic wrap, dollies and hand trucks, lifting straps, tools, and tie-downs to secure your load — plus a free virtual walkthrough and basic carrier liability.",
+          "Every local residential move includes two movers, the industry's largest moving truck, moving blankets for your furniture, disassembly and reassembly, plastic wrap, dollies and hand trucks, lifting straps, tools, and tie-downs to secure your load, plus a free virtual walkthrough and basic carrier liability.",
         ],
       },
       {
@@ -107,7 +107,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       },
     ],
     faqs: [
-      { q: "How much do local movers cost in Utah?", a: "Local residential moves start at <strong>$140/hour</strong> for two movers and a fully equipped truck, with a 3-hour minimum and $40/hour per additional mover. Most 2–3 bedroom moves run $560–$1,400 depending on size and access." },
+      { q: "How much do local movers cost in Utah?", a: "Local residential moves start at <strong>$140/hour</strong> for two movers and a fully equipped truck, with a 3-hour minimum and $40/hour per additional mover. Most 2-3 bedroom moves run $560-$1,400 depending on size and access." },
       { q: "Do you disassemble and reassemble furniture?", a: "Yes. Disassembly and reassembly of beds and standard furniture is included in every residential move at no extra charge." },
       { q: "Can I pack myself to save money?", a: "Absolutely. You can pack yourself and we'll load and move everything (labor-only or full truck), or we can handle the packing for you. You choose the level of service." },
       { q: "Is there a minimum charge?", a: "Yes, there's a 3-hour minimum on local moves. This covers the typical small-to-mid-size move and ensures your crew has time to do the job right." },
@@ -121,15 +121,15 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     seoTitle: "Long-Distance Moving Company in Utah | Interstate Movers",
     seoDescription:
       "Long-distance and interstate movers based in Utah. Set travel costs, no cargo transfers, and one trained crew from pickup to delivery. Get a personalized quote.",
-    lead: "Utah's Moving and Storage handles long-distance and interstate moves with set travel costs, no cargo transfers, and the same trained crew from pickup to delivery — whether you're moving from Utah to Florida or anywhere in between.",
+    lead: "Utah's Moving and Storage handles long-distance and interstate moves with set travel costs, no cargo transfers, and the same trained crew from pickup to delivery, whether you're moving from Utah to Florida or anywhere in between.",
     intro: [
       "A long-distance move adds a layer of logistics that a local move doesn't have. The biggest worries customers tell us about are surprise costs, belongings being transferred between trucks and crews, and not knowing who will actually show up.",
       "We solve all three. You get a personalized quote with set travel costs, your items stay on one truck with no cargo transfers, and our own trained crew handles the move end to end.",
     ],
     highlights: [
-      { icon: "route", title: "Set travel costs", text: "Travel is quoted up front — no mystery mileage charges at the end." },
+      { icon: "route", title: "Set travel costs", text: "Travel is quoted up front, no mystery mileage charges at the end." },
       { icon: "shield", title: "No cargo transfers", text: "Your belongings stay on one truck the entire trip, reducing loss and damage." },
-      { icon: "users", title: "One trained crew", text: "The same professionals load and deliver — no handing off to strangers." },
+      { icon: "users", title: "One trained crew", text: "The same professionals load and deliver, no handing off to strangers." },
       { icon: "check-circle", title: "Personalized quotes", text: "Pricing built around your exact inventory, distance, and timeline." },
     ],
     sections: [
@@ -149,7 +149,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     ],
     faqs: [
       { q: "Do you do interstate / out-of-state moves?", a: "Yes. We handle long-distance and interstate moves as long as one endpoint of the move is in Utah. Common routes include Utah to neighboring states and beyond." },
-      { q: "How is long-distance pricing calculated?", a: "Long-distance moves are quoted as a personalized rate based on your inventory, distance, and timeline, with <strong>set travel costs</strong> agreed up front — not open-ended mileage billing." },
+      { q: "How is long-distance pricing calculated?", a: "Long-distance moves are quoted as a personalized rate based on your inventory, distance, and timeline, with <strong>set travel costs</strong> agreed up front, not open-ended mileage billing." },
       { q: "Will my belongings be transferred between trucks?", a: "No. We keep your shipment on one truck with no cargo transfers, which reduces the risk of loss or damage that comes with warehouse-to-warehouse handoffs." },
     ],
   },
@@ -164,12 +164,12 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     lead: "Utah's Moving and Storage relocates offices and businesses with a focus on speed and minimal downtime, protecting your equipment, files, and furniture so you're back to work as quickly as possible.",
     intro: [
       "Because we run a business ourselves, we understand that you lose money every day you aren't operating. That's why our commercial moving service is built around quick, seamless transitions that get your team back to work fast.",
-      "From a single office suite to a multi-floor relocation, we plan around your schedule — including after-hours and weekend moves — to keep disruption to a minimum.",
+      "From a single office suite to a multi-floor relocation, we plan around your schedule, including after-hours and weekend moves, to keep disruption to a minimum.",
     ],
     highlights: [
       { icon: "clock", title: "Minimal downtime", text: "We plan around your hours so your business keeps running." },
       { icon: "shield", title: "Equipment protected", text: "Computers, servers, and sensitive equipment moved with care." },
-      { icon: "users", title: "Competent, vetted staff", text: "Trained, professional crews — never day-labor." },
+      { icon: "users", title: "Competent, vetted staff", text: "Trained, professional crews, never day-labor." },
       { icon: "box", title: "Organized & labeled", text: "Systematic packing and labeling so setup at the new space is fast." },
     ],
     sections: [
@@ -188,7 +188,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       },
     ],
     faqs: [
-      { q: "Can you move our office after hours or on weekends?", a: "Yes. We schedule commercial moves around your business hours — including evenings and weekends — to minimize downtime and keep your operation running." },
+      { q: "Can you move our office after hours or on weekends?", a: "Yes. We schedule commercial moves around your business hours, including evenings and weekends, to minimize downtime and keep your operation running." },
       { q: "Do you move IT equipment and servers?", a: "Yes. We move computers, servers, and other sensitive equipment with appropriate protection and care, and keep everything organized and labeled for a fast setup." },
       { q: "How is a commercial move quoted?", a: "Commercial moves are quoted individually based on the size of your space, the equipment involved, timing, and any storage needs. Contact us for a free, personalized business quote." },
     ],
@@ -201,9 +201,9 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     seoTitle: "Professional Packing Services & Moving Supplies in Utah",
     seoDescription:
       "Professional packing services and quality moving supplies in Utah. Full-home or partial packing, plus boxes, bubble wrap, and specialty boxes for fragile items.",
-    lead: "Utah's Moving and Storage offers professional packing services and quality moving supplies — from full-home packing to specialty boxes for fragile and high-value items — so your belongings are protected before they ever reach the truck.",
+    lead: "Utah's Moving and Storage offers professional packing services and quality moving supplies, from full-home packing to specialty boxes for fragile and high-value items, so your belongings are protected before they ever reach the truck.",
     intro: [
-      "Packing is the part of moving nobody enjoys. The tape that never comes off the dispenser right, the endless bubble wrap, the boxes to assemble. But we love this stuff — we adore finding the right way to protect your household items and the perfect box for every piece.",
+      "Packing is the part of moving nobody enjoys. The tape that never comes off the dispenser right, the endless bubble wrap, the boxes to assemble. But we love this stuff, we adore finding the right way to protect your household items and the perfect box for every piece.",
       "Whether you want us to pack your entire home, just the kitchen and fragile items, or simply supply you with quality materials, we've got you covered.",
     ],
     highlights: [
@@ -216,7 +216,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       {
         h2: "Full-service and partial packing",
         body: [
-          "Have us pack your whole home, or just the rooms you'd rather not handle — like the kitchen, the garage, or a room full of fragile keepsakes. Our packers work efficiently and label everything so unpacking at your new place is simple.",
+          "Have us pack your whole home, or just the rooms you'd rather not handle, like the kitchen, the garage, or a room full of fragile keepsakes. Our packers work efficiently and label everything so unpacking at your new place is simple.",
         ],
       },
       {
@@ -229,7 +229,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     faqs: [
       { q: "Do you offer full packing services?", a: "Yes. We offer full-service packing (we pack your entire home), partial packing (just the rooms or items you choose), and moving supplies for those who prefer to pack themselves." },
       { q: "What packing supplies do you sell?", a: "We provide small, medium, large, and XL boxes, bubble wrap, tape, packing foam, and specialty boxes for fragile and high-value items like dishes, mirrors, and electronics." },
-      { q: "Should I pay for packing or do it myself?", a: "If you're short on time or moving fragile, high-value items, professional packing is worth it — it's faster and reduces the risk of damage. If you have time and mostly sturdy items, packing yourself with quality supplies can save money." },
+      { q: "Should I pay for packing or do it myself?", a: "If you're short on time or moving fragile, high-value items, professional packing is worth it, it's faster and reduces the risk of damage. If you have time and mostly sturdy items, packing yourself with quality supplies can save money." },
     ],
   },
 };

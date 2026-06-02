@@ -6,7 +6,7 @@ import { BUSINESS } from "@/consts";
 export async function GET(context: APIContext) {
   const posts = await getPublishedPosts();
   return rss({
-    title: `${BUSINESS.name} — Moving Tips & Guides`,
+    title: `${BUSINESS.name}, Moving Tips & Guides`,
     description:
       "Expert moving tips, packing guides, and relocation advice from Utah's Moving and Storage.",
     site: context.site!,

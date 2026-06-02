@@ -41,7 +41,7 @@ Our team of experienced furniture movers has undergone extensive training to ens
 
 ## Long Distance Movers in Draper
 
-Utah’s Moving and Storage Company is the premier long-distance moving company in Draper. Our team is devoted to providing you with the best service possible so that your move can be as stress-free as possible. We use only the highest quality materials and techniques to ensure the safe transport of your possessions. Fragile items are carefully wrapped in bubble wrap for protection, heavy loads are securely packed into sturdy boxes, and loading is done by our employees—no temps will handle any of your items.
+Utah’s Moving and Storage Company is the premier long-distance moving company in Draper. Our team is devoted to providing you with the best service possible so that your move can be as stress-free as possible. We use only the highest quality materials and techniques to ensure the safe transport of your possessions. Fragile items are carefully wrapped in bubble wrap for protection, heavy loads are securely packed into sturdy boxes, and loading is done by our employees, no temps will handle any of your items.
 
 Are you getting ready to move across the country and need help timing your transition? Utah’s Moving and Storage Company offers excellent solutions for those needing temporary storage options. Our network of trusted, secure, and clean facilities gives you peace of mind that your belongings are safe when it’s not possible to move them into your new home right away. Let us help make your cross country move to or from Draper an easy one!
 
@@ -57,6 +57,6 @@ Explore the historic Deseret Peak Complex in nearby Erda, which houses an aquati
 
 Appreciate art at the Draper Art Festival. This annual festival hosts dozens of local artists, showcasing their work with music, performances, galleries, and much more!
 
-Have a blast at Cowabunga Bay Water Park. Spend a day on thrilling water slides or relax in one of the many pools—fun-filled activities for all ages await you here!
+Have a blast at Cowabunga Bay Water Park. Spend a day on thrilling water slides or relax in one of the many pools, fun-filled activities for all ages await you here!
 
 Ready to make Draper, Utah, your new home? Utah’s Moving and Storage Company offers labor-only movers, packing-only services, packing and unpacking services, long-distance moves, and full-service moves to Draper. We’re here to make your move a successful one!

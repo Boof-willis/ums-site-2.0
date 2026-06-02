@@ -37,7 +37,7 @@ We know tricks for packing fragile items carefully, so they don't break. We brin
 
 ## Orem Commercial Movers
 
-Packing up and moving your business takes a special skill set. Putting your sophisticated and delicate computer equipment as well as all the bulky, heavy furniture in the hands of untrained movers can cause a disaster. Heaven forbid you’d find random local movers with a truck on Craigslist to take care of your commercial move—there’s a good chance that you’d soon regret it.
+Packing up and moving your business takes a special skill set. Putting your sophisticated and delicate computer equipment as well as all the bulky, heavy furniture in the hands of untrained movers can cause a disaster. Heaven forbid you’d find random local movers with a truck on Craigslist to take care of your commercial move, there’s a good chance that you’d soon regret it.
 
 Our services are flexible and competitively priced. Using Utah’s Moving and Storage is the best way to ensure that your valuable equipment makes it to your new destination in pristine condition. And if your new space isn’t quite ready, Utah’s Moving and Storage will arrange safe and cost-effective storage in a local unit that will house your belongings until your new premises are ready.
 

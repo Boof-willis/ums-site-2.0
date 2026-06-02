@@ -38,7 +38,7 @@ High-rise buildings can be tricky to move into. You don’t just go straight int
 
 ## 7. Secure Parking Ahead of Time
 
-Parking lots can be crowded with limited spots at high-rise buildings, especially for a massive moving truck. When talking to your manager about your upcoming move-in day, bring up the parking situation and ask where you can park the car and what would allow the most accessible access to your particular unit—secure parking spaces for any vehicles that will be part of your move.
+Parking lots can be crowded with limited spots at high-rise buildings, especially for a massive moving truck. When talking to your manager about your upcoming move-in day, bring up the parking situation and ask where you can park the car and what would allow the most accessible access to your particular unit, secure parking spaces for any vehicles that will be part of your move.
 
 Communication and coordination are essential for moving into a high-rise building or an apartment living situation. Moving to a high floor is a lot of work, so follow the proper steps to make it all go as smoothly as possible.
 

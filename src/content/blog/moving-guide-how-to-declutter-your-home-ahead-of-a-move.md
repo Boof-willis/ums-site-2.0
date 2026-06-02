@@ -15,7 +15,7 @@ Organizing your belongings before a move is key to a smooth transition. By declu
 ## Why Should You Declutter Before You Move?
 
 1. It will make your move less stressful - The less stuff you have to move, the fewer things you have to pack and unpack. Plus, when you declutter before you move, you'll know exactly what items you are bringing with you and where they are located. You will be able to quickly find what you need when you get to your new home.
-2. It will save you time and money - If you don't declutter before you move, you'll spend hours packing and moving everything—That's time and money that you could be spending on other things. If you declutter, you won't have to spend as much time packing, as much money on boxes and supplies, and you won't have to pay for full service movers to move everything.
+2. It will save you time and money - If you don't declutter before you move, you'll spend hours packing and moving everything, That's time and money that you could be spending on other things. If you declutter, you won't have to spend as much time packing, as much money on boxes and supplies, and you won't have to pay for full service movers to move everything.
 3. It will make your new home feel more like home - When you move into a new home, the last thing you want to do is sort through box after box of your belongings to find the items you use daily. Decluttering allows you to get your new home set up sooner, making your new home feel more like home.
 4. It will help you get organized - By clearing out unused items and getting rid of clutter, you pair down your possessions to those that you need and use. You simplify the move and allow yourself some headspace to focus on all that is good about the change.
 
@@ -72,4 +72,4 @@ Opened shampoo bottles, soap, and bathroom cleaning products can spill during tr
 
 Even if you are just moving a few streets over, it's in your best interest to declutter before you do. Remember, whatever you pack, will be waiting for you when you open the boxes in your new home. Instead of making your life more difficult by moving all that clutter with you, start decluttering now to make the move much simpler.
 
-By taking some time to declutter before moving into a new place, you will give yourself a clean slate— a chance to start fresh. And isn't that what moves are for?
+By taking some time to declutter before moving into a new place, you will give yourself a clean slate, a chance to start fresh. And isn't that what moves are for?

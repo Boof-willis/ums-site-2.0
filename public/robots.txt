@@ -1,4 +1,4 @@
-# robots.txt — Utah's Moving and Storage
+# robots.txt - Utah's Moving and Storage
 # Allow all standard + major AI search/answer crawlers so the site can be
 # discovered AND cited. Block training-only / aggressive scrapers.
 
@@ -15,7 +15,7 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# ── AI answer-engine crawlers (search + citation) — explicitly allowed ──
+# ── AI answer-engine crawlers (search + citation) - explicitly allowed ──
 # OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
@@ -80,7 +80,7 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-# ── Training-only / aggressive scrapers — blocked (no citation value) ──
+# ── Training-only / aggressive scrapers - blocked (no citation value) ──
 User-agent: CCBot
 Disallow: /
 

@@ -15,7 +15,7 @@ Job opportunities are plentiful and Lehi's proximity to both Salt Lake City and 
 
 Utah’s Moving and Storage can handle just about any move you can think of, to or from Lehi. As an independently owned moving company, we can offer you a competitive price on anything from loading the truck and driving to your new home to a full service, start-to-finish service that includes everything from bringing bubble wrap and tape to packing up and labeling the entire contents of your home.
 
-When it comes to moving your residence, there is never enough time. There are so many details to worry about—and this is on top of work and normal life! We understand. Our professional team of highly trained, well-presented expert movers will ensure that you are out of your current home on time, and in your new home in no time!
+When it comes to moving your residence, there is never enough time. There are so many details to worry about, and this is on top of work and normal life! We understand. Our professional team of highly trained, well-presented expert movers will ensure that you are out of your current home on time, and in your new home in no time!
 
 In the case that your new home isn’t quite as ready as you are, we are one of the few moving companies in Lehi with temporary storage options that keep your belongings safe and affordably stowed in the meantime.
 
@@ -31,11 +31,11 @@ Moving your business can be a stressful and overwhelming experience. With years 
 
 Our team of professional packers and movers in Lehi can provide flexible scheduling options so that you can plan your move just when you need it to happen. We understand that this process requires meticulous preparation and attention to detail, which is why we do a free walkthrough prior to moving day.
 
-Don’t leave your commercial move in the hands of amateurs—choose Utah’s Moving and Storage for the best professional moving service in Utah.
+Don’t leave your commercial move in the hands of amateurs, choose Utah’s Moving and Storage for the best professional moving service in Utah.
 
 Need a Long Distance Moving Company in Lehi, Utah?
 
-Moving to a new home can be stressful enough, but long distance moves introduce an even greater layer of complexity. As distance increases, so does the likelihood for chips, dings, and breakage during the move. Long distance moves–moves that require transport over 400 miles or more—are often contracted out by the national, hands-off companies.
+Moving to a new home can be stressful enough, but long distance moves introduce an even greater layer of complexity. As distance increases, so does the likelihood for chips, dings, and breakage during the move. Long distance moves-moves that require transport over 400 miles or more, are often contracted out by the national, hands-off companies.
 
 Utah's Moving and Storage Company has a dedicated truck and team. Our professionally trained movers handle everything from packing and loading in your current home to transporting and unloading your belongings at the other end. Our team is fully insured, so we take full responsibility for every dish, toy, and lamp that we pack and unpack; in the unlikely event that something breaks, we’ve got you covered.
 
