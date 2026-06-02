@@ -2,8 +2,9 @@
 title: "What are some tips and tricks for ensuring a smooth unpacking process when moving?"
 description: "Ensure a smooth unpacking process when moving. Learn some crucial unpacking tips that will save you lots of time, headaches, and stress."
 pubDate: 2023-01-26
-updatedDate: 2024-07-04
+updatedDate: 2026-06-02
 category: "Packing & Supplies"
+author: "Derek Martin"
 ---
 
 Moving can often be a chaotic experience if there’s a lack of organization and planning. Following some simple preparation tips can ensure easy unpacking and a smooth transition to your new home. Keep reading to learn some crucial unpacking tips that will save you lots of time, headaches, and stress.

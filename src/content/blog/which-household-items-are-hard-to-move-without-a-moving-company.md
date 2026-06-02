@@ -1,81 +1,108 @@
 ---
-title: "Which household items are hard to move without a moving company?"
-description: "Planning to move out? Read on to know which household items are hard to move without hiring a moving company."
+title: "Specialty & Hard-to-Move Items: Pianos, Gyms, Safes & More"
+description: "How to move pianos, home gyms, safes, pool tables, and tricky furniture, plus what should never ride in the truck. Expert advice from Utah's Movers."
 pubDate: 2022-07-28
-updatedDate: 2024-04-03
-category: "Hiring Movers"
+updatedDate: 2026-06-02
+category: "Moving Tips"
+author: "Derek Martin"
 ---
 
-**A lot of things can be fun to do yourself: crafts, yardwork, even minor car repairs. Moving, however, can get a little tricky to DIY, depending on what you’re packing. Our readers have thoughts on what items you might want to consider professional help to relocate. Keep reading to see what they recommend.**
+Most of a household move is straightforward: pack a box, label it, load it, repeat. Then you hit the items that make people stop and stare. The upright piano in the front room. The 300-pound safe in the basement. The home gym that took a full weekend to assemble. The pool table you swore you would never move again.
 
-Joey Sasson
+At Utah's Moving and Storage, our family-owned crew in Orem has carried just about everything you can imagine up and down Wasatch Front stairwells. After years of doing this work, we have learned that the trick to specialty items is not brute strength. It is knowing what needs special equipment, what needs to be disassembled, what should never touch the truck at all, and when to call a professional rather than risk your back or your belongings. This guide walks through the hard-to-move categories and exactly how we approach each one.
 
-Joey Sasson, Vice President of Sales & Logistics at [Moving APT](https://www.movingapt.com/).
+## What Makes an Item "Hard to Move"
 
-## Delicate or Large Items
+An item earns specialty status when it checks one or more of these boxes:
 
-When moving to a new home, professionals offer white glove services for particularly delicate or valuable items, saving families the hassle and worry of moving them themselves. These are items you will want to consider using professionals to move:
+- **Extreme weight.** Safes, pianos, and large appliances can run hundreds of pounds and demand the right dollies, straps, and trained hands.
+- **Awkward shape.** Ellipticals, sectionals, and odd-angled bookshelves do not behave like a tidy box, so they fight you through every doorway and hallway.
+- **Fragility or value.** Antiques, heirlooms, aquariums, and fine art can be ruined by a single bad bump.
+- **Complex assembly.** Bunk beds, modular wardrobes, and platform beds come apart into dozens of fasteners that must go back together correctly.
 
-- Very Delicate Items - You should move anything precious to you with the help of professionals. This includes things like heirloom furniture, glassware, and art. You'll want to be careful when moving antiques like a grandfather clock to avoid damaging the inner workings. The same goes for any items that are sentimental to you.
-- Oversized Items - Anything too large to fit through the door of your new place will need to be moved by a professional moving company. This includes things like hot tubs, boats, and trailers. Even if you could fit the item through the door, you probably don't have the necessary equipment to move it yourself, so best to leave it to the professionals.
-- Anything Extremely Heavy - Professional movers will have the right tools and equipment to safely move heavy items without injuring themselves or damaging your belongings. Items that fall into this category include safes, refrigerators, and washers and dryers. Movers are also trained to safely disassemble and assemble large items like pianos, pool tables, and trampolines.
+Recognizing which of these apply to a given item tells you how much planning, manpower, and equipment you will need before you lift a thing.
 
-Meyr Aviv
+## Pianos: The Ultimate Specialty Move
 
-Meyr Aviv, Founder & CEO of [iMoving](https://www.imoving.com/).
+Few items intimidate first-time movers like a piano. Uprights are heavy and top-heavy; grand pianos are heavy, delicate, and shaped like nothing else in your house. One wrong move can throw off the tuning, crack the soundboard, or land the instrument on someone's foot.
 
-## Moving Companies Have the Right Equipment
+Linda Schroder, Real Estate and Business Expert and Owner of Cash-for-Houses.org, put the core principle plainly:
 
-There are a few household items that are hard to move without hiring a moving company. Large, fragile items like pianos and china cabinets are best left to the professionals. The same goes for particularly heavy items like refrigerators and washing machines. If you try to move these items yourself, you risk damaging them or injuring yourself in the process.
+> "First and foremost, it is crucial to hire professional piano movers with experience in handling grand pianos. They possess specialized knowledge and equipment to ensure a smooth and damage-free move. The piano should be carefully disassembled, with the legs removed and the lid securely closed."
 
-Additionally, these things usually require special equipment and a lot of manpower to move them safely, so it’s best to leave it to the experts. Moving companies have the experience and the resources to get these types of items from Point A to Point B without any problems.
+### How Grand Pianos Actually Travel
 
-Marshall Weber
+The standard technique is counterintuitive to most homeowners. As Schroder describes it:
 
-Marshall Weber is the CMO of [Stor-it](https://www.stor-it.com/), the largest self-storage provider in the state of Idaho.
+> "Generally, pianos are moved on their sides with the legs removed using moving dollies. This approach helps navigate most doorways and hallways. Dealing with stairs can be complex, so pianos are usually kept away from locations with only stair access. In tall buildings, elevators are the preferred choice, often mandatory above a certain floor height."
 
-## Avoid Damaging Large Appliances
+After the legs and pedal lyre come off, the piano is wrapped in thick blankets or purpose-made piano pads, then secured to a heavy-duty dolly. Inside the truck, it is strapped firmly against the wall so it cannot shift in transit. At the new home, professional movers reassemble it and recommend a tuning once it has settled.
 
-There are many household items that are difficult to move without professional movers. Perhaps the most difficult to move is your large appliances. Not only are these items heavy and bulky, but you also have to safely disconnect them from your home if you are looking to move.
+### Two Things People Overlook
 
-This includes your washer and dryer. It is best to leave these items to the professionals so that you don’t damage the connections in your home or the appliances themselves. You will also likely need a dolly to move these items, and instead of buying one yourself, hire the professionals to help you move them.
+First, climate matters. A piano's wood and strings react to temperature and humidity swings, which can cause structural and tonal problems. For long hauls or storage, a climate-controlled truck or unit protects the instrument's sound.
 
-Some other difficult-to-move items are your bed (especially if it is a king size), your couch, and your dresser.
+Second, insurance. Standard movers may not fully cover piano damage. Specialized piano movers cost more, but they carry the right coverage and shoulder the risk that would otherwise fall on you. Before any piano move, clear every pathway in both homes so the crew is not navigating obstacles with hundreds of pounds in their hands.
 
-Rachel Scott
+## Home Gym Equipment
 
-Rachel Scott, Co-Founder and Medical Practitioner at [National TASC LLC](https://www.nationaltasc.org/).
+Treadmills, ellipticals, weight stacks, and racks are heavy, awkward, and expensive, which is exactly the combination that gets people hurt. Here is how we approach a home gym.
 
-## Aquariums
+### Sanitize First
 
-Aquariums, no matter how small, are best moved with a moving company. If you are keeping an aquarium with many fish, then you very well know that you need a moving company to move them. Transfering the fish and other components of your aquarium is the easy part. However, transferring the aquarium itself is not easy as it is very breakable.
+Before anything gets packed, wipe down mats, handrails, and machine surfaces. A sweaty yoga mat pressed against your bedding in a hot truck is a problem you can avoid. Disinfecting wipes work on machines; a half-water, half-white-vinegar spray is a fine homemade option; and towels and blankets can go through a hot wash.
 
-Hiring a moving company to transport the aquarium is the best way to deal with this problem, given that the other solution is just purchasing a new aquarium for your new home. The second option is a lot more expensive than just hiring a moving company.
+### Start Light, Then Get Strategic
 
-Grace Baena
+Pack the lightest items first, including yoga mats, blocks, and straps. Roll mats top to bottom and secure them with a strap before boxing. For weights, use several small sturdy boxes rather than one heavy one. Cardboard and backs both fail when you overload a single box. Plastic bins are a smart reusable upgrade.
 
-Grace Baena, Director of [Brand of Kaiyo](https://kaiyo.com/).
+### The Big Machines
 
-## Antique and Odd-Shaped Furniture
+- **Treadmill.** Check the manual for the weight and the folding and locking mechanism. Unplug it, fold and lock the deck, and if it tops 100 pounds (most do), set it on a furniture dolly with a partner on each side. Lift with your legs. Reinspect and test on a low setting before you trust it again.
+- **Elliptical.** The shape is the enemy here. It is often easier to remove the handlebars and pedals with a screwdriver and wrench, bag the hardware, and tape the bag to the frame. Wrap the base in moving blankets.
+- **Stationary bike.** The easiest of the group. Unplug it if electric, save the cords in a labeled box, slide cardboard under it to protect floors, and lift it in with a helper.
+- **Weight machines.** Remove all weights first, then disassemble step by step. Bag and label hardware, keep the manual handy for reassembly, and photograph the process if you have no manual. Secure loose parts with tape, zip ties, or bungee cords, and wrap weight bars in towels so they do not scratch other items.
 
-Any household items that are particularly large or difficult to move will be challenging to move without hiring a professional moving company. Large furniture, and especially antique furniture, will often benefit from a team of people familiar with maneuvering awkward, heavy pieces. They will also be better able to protect them during the move to prevent any potential damage.
+## Safes and Heavy Appliances
 
-Mike Van
+Safes and large appliances share a problem: they are dense, heavy, and connected to your home in ways that need careful handling.
 
-Mike Van, Co-founder, and CEO of [Furnishr](https://furnishr.com/).
+Refrigerators, washers, and dryers must be safely disconnected before they move. Done wrong, you can damage the appliance, the water or gas lines, or both. Refrigerators should travel upright so the cooling system does not leak, and they need time to settle before being plugged back in. These items also require a proper appliance dolly, which is reason enough to let a crew that already owns one handle them.
 
-## Gym Equipment
+Safes deserve their own caution. Their weight is concentrated in a small footprint, which makes them deceptively dangerous on stairs and ramps. They need specialized equipment, multiple trained movers, and a clear, mapped-out path. This is not a job for a few friends and a hand truck.
 
-Gym equipment should be included in the list of items that require a professional to move. Not only are treadmills, Bowflex Body Towers, and the like heavy, but they are also awkward in shape. In addition, such equipment is expensive. Therefore don't risk trying to move your exercise apparatuses on your own. Doing so might leave both your body and your Body Tower broke!
+## Pool Tables and Oversized Recreation Items
 
-Sharon Dylan
+A slate pool table is one of the heaviest, most unforgiving items in any home. As one contributor to our furniture coverage noted, pool tables are almost impossible to pull apart and rarely fit through a doorway intact, so they require disassembly that demands real knowledge. The slate must come off in pieces, the felt protected, and the frame broken down and reassembled precisely so the table plays level again. Hot tubs, trampolines, boats, and trailers fall into the same oversized category: too big for a doorway, too heavy for a typical crew, and best left to professionals with the right gear.
 
-Sharon Dylan is the Co-Founder of [Management Help LLC](https://managementhelp.org/).
+## The Hardest Furniture to Assemble and Disassemble
 
-## Big Electronic Appliances
+Some furniture is not especially heavy but punishes you with complexity. Based on what movers see most often, these are the usual headaches:
 
-When moving from one house to another, you cannot just load your big electronic appliances like refrigerators, TVs, or ovens in your car. First, they all wouldn't fit in your car no matter what you do. And second, pushing one to fit in your car may actually damage your appliances.
+- **Bunk beds.** Large, bulky, and full of small parts that must connect correctly, often with two mattresses and frames adding weight and awkwardness.
+- **Modular and sectional sofas.** Many pieces with unique connectors that must line up in a specific sequence to fit and look right.
+- **Platform beds with built-in storage.** Drawers and compartments require intricate steps to detach, and the finished piece is heavy and unwieldy.
+- **Tall or asymmetrical bookshelves.** Often need the original manual to reassemble correctly.
+- **Modular wardrobes (such as PAX units).** So many parts that pieces frequently break during disassembly. Some owners leave them behind rather than risk it.
+- **Antique or handmade pieces.** Irregular shapes, non-standard hardware, and delicate finishes that demand extra care.
 
-For instance, refrigerators can leak the cooling fluid, or the TV can have dead pixels after transporting it not upright. These things are hard to move without a moving company.
+The universal rule for all of these: keep the hardware organized. Bag and label every set of screws and bolts, tape the bag to the matching piece, photograph each step, and hold onto the assembly manual. That single habit prevents most reassembly disasters.
 
-This is a crowdsourced article. Contributors are not necessarily affiliated with this website and their statements do not necessarily reflect the opinion of this website, other people, businesses, or other contributors.
+### Should You Let Movers Handle It?
+
+Many homeowners hesitate before trusting a crew with disassembly and reassembly. The readers who did it told us the deciding factors were professionalism, a proven track record, the right tools on hand, and liability insurance that covers damage during the work. The takeaway is not "always DIY" or "always outsource." It is to vet the company. Read reviews, ask about insurance, and confirm they bring the equipment. When those boxes are checked, handing off the hardest pieces saves time and spares your weekend.
+
+## Items That Should Never Go on the Moving Truck
+
+Some things are not hard to move so much as they should never touch a moving truck at all, for safety, legal, or practical reasons. Reputable movers will refuse these outright.
+
+- **Hazardous materials.** Anything flammable, corrosive, or explosive: propane tanks, gasoline, paint thinner, cleaning solvents, fireworks. Dispose of these properly before the move.
+- **Perishable food.** It spoils, smells, and attracts pests. Stop buying perishables about a week before moving day, and eat or donate what is left. Properly packed canned and dry goods are fine.
+- **Living plants and animals.** Trucks have no ventilation, light, or temperature control. Transport pets and plants yourself.
+- **Weapons and ammunition.** Firearms should be unloaded, locked, and personally transported by the owner.
+- **Valuables and irreplaceable items.** Jewelry, important documents, daily medication, family heirlooms, and printed photos belong with you. As one mover noted, the real risk with irreplaceable items is not breakage but loss. If it cannot be replaced, keep it in your own car.
+- **Temperature-sensitive items.** Fine art, certain electronics, and some medications can be damaged by the heat inside a truck. Move them yourself when you can.
+
+## Let the Specialty Items Be Our Problem
+
+Pianos, safes, pool tables, and full home gyms are exactly the kind of work our family crew is built for. We bring the dollies, straps, blankets, and trained hands so your back stays intact and your prized possessions arrive in one piece. If your move includes any of the items above, reach out to our team and let us [help with the heavy lifting](/pricing/). You handle the new chapter; we will handle the piano.

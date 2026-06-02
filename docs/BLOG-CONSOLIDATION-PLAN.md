@@ -1,5 +1,7 @@
 # Blog Consolidation Plan, Utah's Moving and Storage
 
+> STATUS: EXECUTED 2026-06-02. 87 posts consolidated to 32; 55 merged into survivors with 301 redirects in public/_redirects.
+
 > Review doc. No posts have been deleted. This proposes how to consolidate 87 migrated posts into fewer, stronger pages. Goal: lift content quality/E-E-A-T (Google rewards depth over volume) and remove keyword cannibalization, while preserving SEO equity via 301 redirects.
 
 **Totals:** 87 posts. Median length ~909 words. 7 posts under 700 words (thin).

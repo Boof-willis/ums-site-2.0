@@ -2,8 +2,9 @@
 title: "11 Quick Tips for Moving in the Wintertime"
 description: "Moving in the winter can be challenging, but Utah moving companies make it easier with many benefits. Discover 11 tips for a smooth move."
 pubDate: 2024-11-05
-updatedDate: 2024-09-19
+updatedDate: 2026-06-02
 category: "Moving Day Tips"
+author: "Derek Martin"
 ---
 
 For many, moving in the winter is not ideal. But sometimes, your moving timeline is not flexible due to job start dates, expiring leases, home logistics, etc. Moving in the winter may seem miserable, but it is doable, and people do it all the time.
